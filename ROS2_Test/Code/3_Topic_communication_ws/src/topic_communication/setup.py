@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "publisher = topic_communication.topic_publisher:main",
+            "listener = topic_communication.topic_listener:main"
         ],
     },
 )

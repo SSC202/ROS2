@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/topic_communication/topic_communication.egg-info
+writing ../../build/topic_communication/topic_communication.egg-info/PKG-INFO
+writing dependency_links to ../../build/topic_communication/topic_communication.egg-info/dependency_links.txt
+writing entry points to ../../build/topic_communication/topic_communication.egg-info/entry_points.txt
+writing requirements to ../../build/topic_communication/topic_communication.egg-info/requires.txt
+writing top-level names to ../../build/topic_communication/topic_communication.egg-info/top_level.txt
+writing manifest file '../../build/topic_communication/topic_communication.egg-info/SOURCES.txt'
+reading manifest file '../../build/topic_communication/topic_communication.egg-info/SOURCES.txt'
+writing manifest file '../../build/topic_communication/topic_communication.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build
+creating /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib
+creating /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication
+copying topic_communication/__init__.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication
+copying topic_communication/topic_publisher.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication
+copying topic_communication/topic_listener.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication
+running install
+running install_lib
+creating /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication
+copying /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication/__init__.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication
+copying /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication/topic_publisher.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication
+copying /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication/topic_listener.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication
+byte-compiling /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication/__init__.py to __init__.cpython-310.pyc
+byte-compiling /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication/topic_publisher.py to topic_publisher.cpython-310.pyc
+byte-compiling /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication/topic_listener.py to topic_listener.cpython-310.pyc
+running install_data
+creating /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/ament_index
+creating /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/ament_index/resource_index
+creating /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/ament_index/resource_index/packages
+copying resource/topic_communication -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/ament_index/resource_index/packages
+copying package.xml -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/topic_communication
+running install_egg_info
+Copying ../../build/topic_communication/topic_communication.egg-info to /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/topic_communication
+Installing publisher script to /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/topic_communication
+writing list of installed files to '/data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/install.log'

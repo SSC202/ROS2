@@ -1,0 +1,4 @@
+[console_scripts]
+listener = topic_communication.topic_listener:main
+publisher = topic_communication.topic_publisher:main
+

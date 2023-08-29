@@ -1,0 +1,43 @@
+[0.540s] Invoking command in '/data/ROS2_Test/Code/3_Topic_communication_ws/src/topic_communication': PYTHONPATH=/data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/prefix_override:/data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/topic_communication build --build-base /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build install --record /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/install.log --single-version-externally-managed
+[0.687s] running egg_info
+[0.687s] creating ../../build/topic_communication/topic_communication.egg-info
+[0.687s] writing ../../build/topic_communication/topic_communication.egg-info/PKG-INFO
+[0.687s] writing dependency_links to ../../build/topic_communication/topic_communication.egg-info/dependency_links.txt
+[0.687s] writing entry points to ../../build/topic_communication/topic_communication.egg-info/entry_points.txt
+[0.687s] writing requirements to ../../build/topic_communication/topic_communication.egg-info/requires.txt
+[0.687s] writing top-level names to ../../build/topic_communication/topic_communication.egg-info/top_level.txt
+[0.688s] writing manifest file '../../build/topic_communication/topic_communication.egg-info/SOURCES.txt'
+[0.689s] reading manifest file '../../build/topic_communication/topic_communication.egg-info/SOURCES.txt'
+[0.689s] writing manifest file '../../build/topic_communication/topic_communication.egg-info/SOURCES.txt'
+[0.689s] running build
+[0.689s] running build_py
+[0.690s] creating /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build
+[0.690s] creating /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib
+[0.690s] creating /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication
+[0.690s] copying topic_communication/__init__.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication
+[0.690s] copying topic_communication/topic_publisher.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication
+[0.690s] copying topic_communication/topic_listener.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication
+[0.690s] running install
+[0.690s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.690s]   warnings.warn(
+[0.691s] running install_lib
+[0.692s] creating /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication
+[0.692s] copying /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication/__init__.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication
+[0.692s] copying /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication/topic_publisher.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication
+[0.692s] copying /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build/lib/topic_communication/topic_listener.py -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication
+[0.692s] byte-compiling /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication/__init__.py to __init__.cpython-310.pyc
+[0.692s] byte-compiling /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication/topic_publisher.py to topic_publisher.cpython-310.pyc
+[0.693s] byte-compiling /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication/topic_listener.py to topic_listener.cpython-310.pyc
+[0.693s] running install_data
+[0.693s] creating /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/ament_index
+[0.693s] creating /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/ament_index/resource_index
+[0.693s] creating /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/ament_index/resource_index/packages
+[0.694s] copying resource/topic_communication -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/ament_index/resource_index/packages
+[0.694s] copying package.xml -> /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/share/topic_communication
+[0.694s] running install_egg_info
+[0.695s] Copying ../../build/topic_communication/topic_communication.egg-info to /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages/topic_communication-0.0.0-py3.10.egg-info
+[0.695s] running install_scripts
+[0.711s] Installing listener script to /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/topic_communication
+[0.711s] Installing publisher script to /data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/topic_communication
+[0.711s] writing list of installed files to '/data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/install.log'
+[0.732s] Invoked command in '/data/ROS2_Test/Code/3_Topic_communication_ws/src/topic_communication' returned '0': PYTHONPATH=/data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/prefix_override:/data/ROS2_Test/Code/3_Topic_communication_ws/install/topic_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/topic_communication build --build-base /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/build install --record /data/ROS2_Test/Code/3_Topic_communication_ws/build/topic_communication/install.log --single-version-externally-managed

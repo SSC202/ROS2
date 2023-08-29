@@ -145,3 +145,114 @@ colcon build
 > - `build` 目录存储的是中间文件。对于每个包，将创建一个子文件夹，在其中调用例如CMake
 > - `install` 目录是每个软件包将安装到的位置。默认情况下，每个包都将安装到单独的子目录中。
 > - `log` 目录包含有关每个colcon调用的各种日志信息。
+
+## 5. 功能包的节点创建
+
+### 建立工作空间
+
+```shell
+mkdir /1_node_build/src	# 工作空间名为1_node_build，注意创建src文件夹
+cd /1_node_build		# 进入工作空间
+```
+
+### 在工作空间内创建功能包
+
+```shell
+ros pkg create node_build --build-type ament-python --dependencies rclpy
+```
+
+创建完毕后的目录如下：
+
+```
+.
+├── node_build				# 以功能包命名的文件夹下用于存放节点文件
+│   └── __init__.py			# 初始化文件
+├── package.xml
+├── resource
+│   └── example_py
+├── setup.cfg
+├── setup.py				# 配置文件
+└── test
+    ├── test_copyright.py
+    ├── test_flake8.py
+    └── test_pep257.py
+
+3 directories, 8 files
+```
+
+### 编写源码
+
+```python
+import rclpy
+from rclpy.node import Node
+
+def main(args = None):
+    # 初始化客户端
+    rclpy.init(args=args)
+    # 节点创建
+    node = Node("node_build")
+    # 日志输出（节点）
+    node.get_logger().info("Hello World")
+    # 节点循环运行
+    rclpy.spin(node)
+    # 关闭客户端，节点停止运行前无法到达
+    rclpy.shutdown()
+```
+
+### 修改 setup.py 文件
+
+```python 
+    entry_points={
+        'console_scripts': [
+            "节点名 = 功能包名.节点文件名:main"
+        ],
+    },
+```
+
+### Colcon 编译
+
+回到工作空间中：
+
+```shell
+colcon build
+```
+
+### 加载环境变量
+
+```shell
+source install/setup.bash
+```
+
+### 运行节点
+
+```shell
+ros2 run node_build node_build 
+```
+
+## 6. 对象化节点
+
+将节点作为对象进行运行，每一类节点视为一个类，使用时实例化即可。
+
+```python
+import rclpy
+from rclpy.node import Node
+
+# 继承于Node类的节点Node_HelloWorld
+def Node_HelloWorld(Node):
+    def __init__(self,name):
+        super().__init__(name)
+        # 节点运行的任务
+        self.get_logger().info("Hello World")
+        
+
+def main(args = None):
+    # 初始化客户端
+    rclpy.init(args=args)
+    # 节点创建
+    node = Node_HelloWorld("node_build")
+    # 节点循环运行
+    rclpy.spin(node)
+    # 关闭客户端，节点停止运行前无法到达
+    rclpy.shutdown()
+```
+

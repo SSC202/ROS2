@@ -256,4 +256,3 @@ def main(args = None):
     rclpy.shutdown()
 ```
 
-## 7

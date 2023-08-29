@@ -1,0 +1,39 @@
+[0.374s] Invoking command in '/data/ROS2_Test/Code/2_ROS2_Node_Build_ws/node_build': PYTHONPATH=/data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/prefix_override:/data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/node_build build --build-base /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build install --record /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/install.log --single-version-externally-managed
+[0.520s] running egg_info
+[0.520s] creating ../build/node_build/node_build.egg-info
+[0.520s] writing ../build/node_build/node_build.egg-info/PKG-INFO
+[0.520s] writing dependency_links to ../build/node_build/node_build.egg-info/dependency_links.txt
+[0.520s] writing entry points to ../build/node_build/node_build.egg-info/entry_points.txt
+[0.521s] writing requirements to ../build/node_build/node_build.egg-info/requires.txt
+[0.521s] writing top-level names to ../build/node_build/node_build.egg-info/top_level.txt
+[0.521s] writing manifest file '../build/node_build/node_build.egg-info/SOURCES.txt'
+[0.522s] reading manifest file '../build/node_build/node_build.egg-info/SOURCES.txt'
+[0.522s] writing manifest file '../build/node_build/node_build.egg-info/SOURCES.txt'
+[0.522s] running build
+[0.522s] running build_py
+[0.522s] creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build
+[0.522s] creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib
+[0.523s] creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build
+[0.523s] copying node_build/__init__.py -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build
+[0.523s] copying node_build/node_build.py -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build
+[0.523s] running install
+[0.523s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.523s]   warnings.warn(
+[0.523s] running install_lib
+[0.523s] creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build
+[0.524s] copying /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build/__init__.py -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build
+[0.524s] copying /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build/node_build.py -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build
+[0.524s] byte-compiling /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build/__init__.py to __init__.cpython-310.pyc
+[0.524s] byte-compiling /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build/node_build.py to node_build.cpython-310.pyc
+[0.524s] running install_data
+[0.524s] creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/ament_index
+[0.524s] creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/ament_index/resource_index
+[0.525s] creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/ament_index/resource_index/packages
+[0.525s] copying resource/node_build -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/ament_index/resource_index/packages
+[0.525s] copying package.xml -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/node_build
+[0.525s] running install_egg_info
+[0.526s] Copying ../build/node_build/node_build.egg-info to /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build-0.0.0-py3.10.egg-info
+[0.526s] running install_scripts
+[0.542s] Installing node_build script to /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/node_build
+[0.543s] writing list of installed files to '/data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/install.log'
+[0.568s] Invoked command in '/data/ROS2_Test/Code/2_ROS2_Node_Build_ws/node_build' returned '0': PYTHONPATH=/data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/prefix_override:/data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/node_build build --build-base /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build install --record /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/install.log --single-version-externally-managed

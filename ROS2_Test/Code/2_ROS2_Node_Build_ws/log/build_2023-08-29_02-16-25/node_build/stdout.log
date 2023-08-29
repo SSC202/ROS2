@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/node_build/node_build.egg-info
+writing ../build/node_build/node_build.egg-info/PKG-INFO
+writing dependency_links to ../build/node_build/node_build.egg-info/dependency_links.txt
+writing entry points to ../build/node_build/node_build.egg-info/entry_points.txt
+writing requirements to ../build/node_build/node_build.egg-info/requires.txt
+writing top-level names to ../build/node_build/node_build.egg-info/top_level.txt
+writing manifest file '../build/node_build/node_build.egg-info/SOURCES.txt'
+reading manifest file '../build/node_build/node_build.egg-info/SOURCES.txt'
+writing manifest file '../build/node_build/node_build.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build
+creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib
+creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build
+copying node_build/__init__.py -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build
+copying node_build/node_build.py -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build
+running install
+running install_lib
+creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build
+copying /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build/__init__.py -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build
+copying /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/build/lib/node_build/node_build.py -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build
+byte-compiling /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build/__init__.py to __init__.cpython-310.pyc
+byte-compiling /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build/node_build.py to node_build.cpython-310.pyc
+running install_data
+creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/ament_index
+creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/ament_index/resource_index
+creating /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/ament_index/resource_index/packages
+copying resource/node_build -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/ament_index/resource_index/packages
+copying package.xml -> /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/share/node_build
+running install_egg_info
+Copying ../build/node_build/node_build.egg-info to /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/python3.10/site-packages/node_build-0.0.0-py3.10.egg-info
+running install_scripts
+Installing node_build script to /data/ROS2_Test/Code/2_ROS2_Node_Build_ws/install/node_build/lib/node_build
+writing list of installed files to '/data/ROS2_Test/Code/2_ROS2_Node_Build_ws/build/node_build/install.log'

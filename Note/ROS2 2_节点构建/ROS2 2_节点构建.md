@@ -238,7 +238,7 @@ import rclpy
 from rclpy.node import Node
 
 # 继承于Node类的节点Node_HelloWorld
-def Node_HelloWorld(Node):
+class Node_HelloWorld(Node):
     def __init__(self,name):
         super().__init__(name)
         # 节点运行的任务

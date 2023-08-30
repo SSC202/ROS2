@@ -1,0 +1,43 @@
+[0.651s] Invoking command in '/data/ROS2_Test/Code/4_Service_communication_ws/src/service_communication': PYTHONPATH=/data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/prefix_override:/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service_communication build --build-base /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build install --record /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/install.log --single-version-externally-managed
+[0.787s] running egg_info
+[0.787s] creating ../../build/service_communication/service_communication.egg-info
+[0.787s] writing ../../build/service_communication/service_communication.egg-info/PKG-INFO
+[0.787s] writing dependency_links to ../../build/service_communication/service_communication.egg-info/dependency_links.txt
+[0.787s] writing entry points to ../../build/service_communication/service_communication.egg-info/entry_points.txt
+[0.787s] writing requirements to ../../build/service_communication/service_communication.egg-info/requires.txt
+[0.787s] writing top-level names to ../../build/service_communication/service_communication.egg-info/top_level.txt
+[0.788s] writing manifest file '../../build/service_communication/service_communication.egg-info/SOURCES.txt'
+[0.788s] reading manifest file '../../build/service_communication/service_communication.egg-info/SOURCES.txt'
+[0.789s] writing manifest file '../../build/service_communication/service_communication.egg-info/SOURCES.txt'
+[0.789s] running build
+[0.789s] running build_py
+[0.789s] creating /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build
+[0.789s] creating /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build/lib
+[0.789s] creating /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build/lib/service_communication
+[0.789s] copying service_communication/__init__.py -> /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build/lib/service_communication
+[0.789s] copying service_communication/server.py -> /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build/lib/service_communication
+[0.789s] copying service_communication/client.py -> /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build/lib/service_communication
+[0.789s] running install
+[0.790s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.790s]   warnings.warn(
+[0.791s] running install_lib
+[0.791s] creating /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication
+[0.791s] copying /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build/lib/service_communication/__init__.py -> /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication
+[0.791s] copying /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build/lib/service_communication/server.py -> /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication
+[0.792s] copying /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build/lib/service_communication/client.py -> /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication
+[0.792s] byte-compiling /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/__init__.py to __init__.cpython-310.pyc
+[0.792s] byte-compiling /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/server.py to server.cpython-310.pyc
+[0.792s] byte-compiling /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/client.py to client.cpython-310.pyc
+[0.792s] running install_data
+[0.793s] creating /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/share/ament_index
+[0.793s] creating /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/share/ament_index/resource_index
+[0.793s] creating /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/share/ament_index/resource_index/packages
+[0.793s] copying resource/service_communication -> /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/share/ament_index/resource_index/packages
+[0.793s] copying package.xml -> /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/share/service_communication
+[0.793s] running install_egg_info
+[0.794s] Copying ../../build/service_communication/service_communication.egg-info to /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication-0.0.0-py3.10.egg-info
+[0.794s] running install_scripts
+[0.809s] Installing client script to /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/service_communication
+[0.809s] Installing server script to /data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/service_communication
+[0.809s] writing list of installed files to '/data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/install.log'
+[0.830s] Invoked command in '/data/ROS2_Test/Code/4_Service_communication_ws/src/service_communication' returned '0': PYTHONPATH=/data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/prefix_override:/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service_communication build --build-base /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/build install --record /data/ROS2_Test/Code/4_Service_communication_ws/build/service_communication/install.log --single-version-externally-managed

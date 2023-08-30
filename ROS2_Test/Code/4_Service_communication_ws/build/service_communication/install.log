@@ -1,0 +1,17 @@
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/__init__.py
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/server.py
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/client.py
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/__pycache__/__init__.cpython-310.pyc
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/__pycache__/server.cpython-310.pyc
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication/__pycache__/client.cpython-310.pyc
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/share/ament_index/resource_index/packages/service_communication
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/share/service_communication/package.xml
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication-0.0.0-py3.10.egg-info/requires.txt
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication-0.0.0-py3.10.egg-info/zip-safe
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication-0.0.0-py3.10.egg-info/entry_points.txt
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication-0.0.0-py3.10.egg-info/SOURCES.txt
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication-0.0.0-py3.10.egg-info/top_level.txt
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication-0.0.0-py3.10.egg-info/dependency_links.txt
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/python3.10/site-packages/service_communication-0.0.0-py3.10.egg-info/PKG-INFO
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/service_communication/client
+/data/ROS2_Test/Code/4_Service_communication_ws/install/service_communication/lib/service_communication/server

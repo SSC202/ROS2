@@ -384,3 +384,137 @@ ros2 interface list
 ros2 interface show <interface_type>
 ```
 
+#### 接口包的创建
+
+```shell
+# 依赖于 rosidl 创建接口包
+ros2 pkg create <self_interface> --build-type ament_cmake --dependencies rosidl_default_generators geometry_msgs
+```
+
+在创建的接口包中，新建接口文件夹`msg`，`srv`，`action`，在接口文件夹下建立接口文件`xxx.msg`，`xxx.srv`，`xxx.action`（注意，首字母必须大写）。
+
+- 修改`CMakeLists.txt`
+
+```cmake
+find_package(rosidl_default_generators REQUIRED)
+find_package(geometry_msgs REQUIRED)
+# 添加下面的内容
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/RobotStatus.msg"
+  "srv/RobotMove.srv"
+  DEPENDENCIES geometry_msgs
+)
+```
+
+- 修改`package.xml`
+
+```xml
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rosidl_default_generators</depend>
+  <depend>geometry_msgs</depend>
+  
+  <member_of_group>rosidl_interface_packages</member_of_group> #添加这一行
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+```
+
+- 在`<ws_name>/<install>/<interface_name>/local/lib/python3.10/`下看到Python模块文件。
+
+```python
+"""
+    客户端有两个任务：
+    1. 机器人运动指令的发布
+    2. 机器人实时状态接受
+"""
+import rclpy
+from rclpy.node import Node
+# 导入话题通信接口
+from self_interface.msg import RobotStatus
+# 导入服务通信接口
+from self_interface.srv import RobotCommand
+
+class User_Node(Node):
+    def __init__(self,name):
+        super().__init__(name)
+        # 创建订阅方
+        self.robotstatus_subscriber = self.create_subscription(RobotStatus,"robotstatus",self.robotstatus_get_callback,10)
+        # 创建客户端
+        self.robotmove_client = self.create_client(RobotCommand,"robotmove")
+
+    # 订阅接受回调函数
+    def robotstatus_get_callback(self,msg):
+        self.get_logger().info(f"Robot Status:{msg.status};Pose:{msg.pose}")
+
+    # 服务端响应回调函数
+    def robotmove_command_callback(self,result_future):
+        responce = result_future.result()
+        self.get_logger().info(f"Moving Done!Consquence:{responce.pose}")
+
+    # 服务端发送函数
+    def robotmove_send_command(self,distance):
+        while rclpy.ok() and self.robotmove_client.wait_for_service(1) == False:
+            self.get_logger().info("Wait for service...")
+        
+        request = RobotCommand.Request()
+        request.distance = distance
+        self.get_logger().info(f"Command to move:{distance}")
+        self.robotmove_client.call_async(request).add_done_callback(self.robotmove_command_callback)
+    
+def main(args = None):
+    rclpy.init(args=args)
+    node = User_Node("user")
+    node.robotmove_send_command(5.0)
+    rclpy.spin(node)
+    rclpy.shutdown()
+```
+
+```python
+"""
+    机器人端有两个任务：
+    1. 机器人状态消息的发布(Publisher)
+    2. 接受移动请求并回传当前位置
+"""
+import rclpy
+from rclpy.node import Node
+# 消息需要的数据类型
+from self_interface.msg import RobotStatus
+# 服务需要的数据类型
+from self_interface.srv import RobotCommand
+# 导入机器人类
+from self_interface_test.robot import Robot
+
+class Robot_Node(Node):
+    def __init__(self,name):
+        super().__init__(name)
+        # 创建机器人
+        self.robot = Robot()
+        # 创建服务端
+        self.robotmove_server = self.create_service(RobotCommand,"robotmove",self.move_request_callback)
+        # 创建发布者
+        self.robotstatus_publisher = self.create_publisher(RobotStatus,"robotstatus",10)
+        # 定时消息发布定时器
+        self.robotstatus_timer = self.create_timer(1,self.robotstatus_timmer_callback)
+
+    # 定时器回调函数
+    def robotstatus_timmer_callback(self):
+        status_msg = RobotStatus()
+        status_msg.status = self.robot.get_status()
+        status_msg.pose = self.robot.get_current_pose()
+
+        self.robotstatus_publisher.publish(status_msg)
+
+    # 服务端回调函数
+    def move_request_callback(self,request,responce):
+        self.robot.move_robot(request.distance)
+        responce.pose = self.robot.get_current_pose()
+        return responce
+        
+def main(args = None):
+    rclpy.init(args=args)
+    node = Robot_Node("robot")
+    rclpy.spin(node)
+    rclpy.shutdown()
+```
+

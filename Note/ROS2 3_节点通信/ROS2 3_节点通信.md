@@ -327,3 +327,60 @@ def main(args = None):
 #### 总结
 
 ![NULL](picture_8.jpg)
+
+### 2.3 自定义消息接口（Interface）
+
+**接口是一种消息规范。**
+
+ROS2 中有**动作接口，话题接口和服务接口。**
+
+#### 接口的基本数据类型
+
+```shell
+bool
+byte
+char
+float32,float64
+int8,uint8
+int16,uint16
+int32,uint32
+int64,uint64
+string
+```
+
+#### 通过接口生成代码
+
+ROS2 的 IDL 模块可以通过接口生成代码，产生头文件（模块），从而在程序里导入并使用。
+
+![NULL](picture_9.jpg)
+
+#### 接口的定义
+
+- 话题接口
+
+```
+<type> <name>
+<type> <name>
+...
+```
+
+- 服务接口
+
+```
+# request
+<type> <name>
+---
+# responce
+<type> <name>
+```
+
+#### 接口CLI
+
+```shell
+# 接口列表查看
+ros2 interface list
+
+# 查看接口内容
+ros2 interface show <interface_type>
+```
+

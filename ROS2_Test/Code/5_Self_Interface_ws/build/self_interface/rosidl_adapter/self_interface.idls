@@ -1,0 +1,2 @@
+/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface/rosidl_adapter/self_interface:msg/RobotStatus.idl
+/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface/rosidl_adapter/self_interface:srv/RobotCommand.idl

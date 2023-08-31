@@ -1,0 +1,259 @@
+[0.016s] Invoking command in '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface -DCMAKE_INSTALL_PREFIX=/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface
+[0.026s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.413s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.769s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.874s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.887s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.952s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.952s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.952s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.952s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.967s] -- Found PythonExtra: .so  
+[0.991s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.104s] -- Added test 'lint_cmake' to check CMake code style
+[1.113s] -- Added test 'xmllint' to check XML markup files
+[1.120s] -- Configuring done
+[1.209s] -- Generating done
+[1.212s] -- Build files have been written to: /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface
+[1.216s] Invoked command in '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface -DCMAKE_INSTALL_PREFIX=/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface
+[1.218s] Invoking command in '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface -- -j8 -l8
+[1.247s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.254s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.261s] [  5%] Built target ament_cmake_python_copy_self_interface
+[1.418s] running egg_info
+[1.418s] creating self_interface.egg-info
+[1.418s] writing self_interface.egg-info/PKG-INFO
+[1.418s] writing dependency_links to self_interface.egg-info/dependency_links.txt
+[1.419s] writing top-level names to self_interface.egg-info/top_level.txt
+[1.419s] writing manifest file 'self_interface.egg-info/SOURCES.txt'
+[1.421s] reading manifest file 'self_interface.egg-info/SOURCES.txt'
+[1.421s] writing manifest file 'self_interface.egg-info/SOURCES.txt'
+[1.443s] [  5%] Built target ament_cmake_python_build_self_interface_egg
+[1.573s] [  5%] Built target self_interface__cpp
+[1.581s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.581s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.581s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.615s] [ 17%] [32mBuilding C object CMakeFiles/self_interface__rosidl_generator_c.dir/rosidl_generator_c/self_interface/srv/detail/robot_command__functions.c.o[0m
+[1.615s] [ 17%] [32mBuilding C object CMakeFiles/self_interface__rosidl_generator_c.dir/rosidl_generator_c/self_interface/msg/detail/robot_status__functions.c.o[0m
+[1.842s] [ 20%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/self_interface/msg/detail/robot_status__type_support.cpp.o[0m
+[1.843s] [ 25%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/self_interface/srv/detail/robot_command__type_support.cpp.o[0m
+[1.844s] [ 25%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/self_interface/msg/robot_status__type_support.cpp.o[0m
+[1.846s] [ 28%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/self_interface/srv/robot_command__type_support.cpp.o[0m
+[1.882s] [ 33%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/self_interface/srv/detail/dds_fastrtps/robot_command__type_support.cpp.o[0m
+[1.882s] [ 33%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/self_interface/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[2.083s] [ 35%] [32m[1mLinking C shared library libself_interface__rosidl_generator_c.so[0m
+[2.217s] [ 35%] Built target self_interface__rosidl_generator_c
+[2.224s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.225s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.504s] [ 43%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/self_interface/msg/detail/robot_status__type_support.c.o[0m
+[2.517s] [ 46%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/self_interface/msg/detail/robot_status__type_support_c.cpp.o[0m
+[2.530s] [ 48%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/self_interface/srv/detail/robot_command__type_support.c.o[0m
+[2.555s] [ 51%] [32m[1mLinking C shared library libself_interface__rosidl_typesupport_introspection_c.so[0m
+[2.581s] [ 51%] Built target self_interface__rosidl_typesupport_introspection_c
+[2.589s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.848s] [ 56%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/self_interface/srv/detail/robot_command__type_support_c.cpp.o[0m
+[2.848s] [ 58%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_cpp.so[0m
+[2.903s] [ 58%] Built target self_interface__rosidl_typesupport_cpp
+[2.988s] [ 61%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_introspection_cpp.so[0m
+[2.997s] [ 64%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/self_interface/msg/robot_status__type_support.cpp.o[0m
+[3.000s] [ 66%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/self_interface/srv/robot_command__type_support.cpp.o[0m
+[3.020s] [ 66%] Built target self_interface__rosidl_typesupport_introspection_cpp
+[3.031s] [ 69%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_c.so[0m
+[3.057s] [ 71%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.063s] [ 71%] Built target self_interface__rosidl_typesupport_c
+[3.125s] [ 71%] Built target self_interface__rosidl_typesupport_fastrtps_cpp
+[3.156s] [ 74%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.210s] [ 74%] Built target self_interface__rosidl_typesupport_fastrtps_c
+[3.225s] [ 74%] Built target self_interface
+[3.240s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.609s] [ 76%] Built target self_interface__py
+[3.623s] [ 82%] [32mBuilding C object CMakeFiles/self_interface__rosidl_generator_py.dir/rosidl_generator_py/self_interface/msg/_robot_status_s.c.o[0m
+[3.623s] [ 82%] [32mBuilding C object CMakeFiles/self_interface__rosidl_generator_py.dir/rosidl_generator_py/self_interface/srv/_robot_command_s.c.o[0m
+[4.037s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/self_interface/libself_interface__rosidl_generator_py.so[0m
+[4.082s] [ 84%] Built target self_interface__rosidl_generator_py
+[4.097s] [ 92%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.097s] [ 92%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.097s] [ 92%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.170s] [100%] [32m[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.170s] [100%] [32m[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.170s] [100%] [32m[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.194s] [100%] Built target self_interface__rosidl_typesupport_introspection_c__pyext
+[4.194s] [100%] Built target self_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.194s] [100%] Built target self_interface__rosidl_typesupport_c__pyext
+[4.202s] Invoked command in '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface -- -j8 -l8
+[4.256s] Invoking command in '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface
+[4.263s] -- Install configuration: ""
+[4.263s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/ament_index/resource_index/rosidl_interfaces/self_interface
+[4.263s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__functions.h
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__struct.h
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__type_support.h
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__functions.c
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/robot_command.h
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__functions.c
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__struct.h
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__functions.h
+[4.264s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__type_support.h
+[4.265s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/robot_status.h
+[4.265s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/rosidl_generator_c__visibility_control.h
+[4.265s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/environment/library_path.sh
+[4.265s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/environment/library_path.dsv
+[4.265s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_generator_c.so
+[4.265s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_generator_c.so" to ""
+[4.265s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface
+[4.265s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv
+[4.265s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail
+[4.265s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+[4.265s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg
+[4.265s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail
+[4.265s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[4.265s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.266s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_fastrtps_c.so
+[4.266s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[4.266s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface
+[4.266s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv
+[4.266s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail
+[4.266s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__type_support.c
+[4.266s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__rosidl_typesupport_introspection_c.h
+[4.266s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg
+[4.266s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail
+[4.266s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__type_support.c
+[4.266s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[4.266s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.266s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_introspection_c.so
+[4.266s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_introspection_c.so" to ""
+[4.266s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_c.so
+[4.266s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_c.so" to ""
+[4.266s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface
+[4.266s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv
+[4.266s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__struct.hpp
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__traits.hpp
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__builder.hpp
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/robot_command.hpp
+[4.267s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg
+[4.267s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__traits.hpp
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__builder.hpp
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__struct.hpp
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/robot_status.hpp
+[4.267s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface
+[4.267s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv
+[4.267s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/dds_fastrtps
+[4.267s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg
+[4.267s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/dds_fastrtps
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.267s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.267s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.268s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface
+[4.268s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv
+[4.268s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__type_support.cpp
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/srv/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp
+[4.268s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg
+[4.268s] -- Up-to-date: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/include/self_interface/self_interface/msg/detail/robot_status__type_support.cpp
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_introspection_cpp.so
+[4.268s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_cpp.so
+[4.268s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_typesupport_cpp.so" to ""
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/environment/pythonpath.sh
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/environment/pythonpath.dsv
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface-0.0.0-py3.10.egg-info
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface-0.0.0-py3.10.egg-info/top_level.txt
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.268s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/libself_interface__rosidl_generator_py.so
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/__init__.py
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/srv
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/srv/__init__.py
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/srv/_robot_command_s.c
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/srv/_robot_command.py
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/_self_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/_self_interface_s.ep.rosidl_typesupport_introspection_c.c
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/_self_interface_s.ep.rosidl_typesupport_c.c
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/msg
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/msg/__init__.py
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/msg/_robot_status.py
+[4.269s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/msg/_robot_status_s.c
+[4.316s] Listing '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface'...
+[4.316s] Compiling '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/__init__.py'...
+[4.316s] Listing '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/msg'...
+[4.316s] Compiling '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/msg/__init__.py'...
+[4.316s] Compiling '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/msg/_robot_status.py'...
+[4.316s] Listing '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/srv'...
+[4.316s] Compiling '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/srv/__init__.py'...
+[4.316s] Compiling '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/srv/_robot_command.py'...
+[4.320s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.320s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.320s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.320s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.321s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.321s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/local/lib/python3.10/dist-packages/self_interface/self_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.321s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_generator_py.so
+[4.321s] -- Set runtime path of "/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/lib/libself_interface__rosidl_generator_py.so" to ""
+[4.321s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/msg/RobotStatus.idl
+[4.321s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/srv/RobotCommand.idl
+[4.321s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/msg/RobotStatus.msg
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/srv/RobotCommand.srv
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/srv/RobotCommand_Request.msg
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/srv/RobotCommand_Response.msg
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/ament_index/resource_index/package_run_dependencies/self_interface
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/ament_index/resource_index/parent_prefix_path/self_interface
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/environment/ament_prefix_path.sh
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/environment/ament_prefix_path.dsv
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/environment/path.sh
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/environment/path.dsv
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/local_setup.bash
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/local_setup.sh
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/local_setup.zsh
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/local_setup.dsv
+[4.322s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/package.dsv
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/ament_index/resource_index/packages/self_interface
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_generator_cExport.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_generator_cExport-noconfig.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interface__rosidl_typesupport_introspection_cExport.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interface__rosidl_typesupport_cExport.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interface__rosidl_typesupport_cExport-noconfig.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_generator_cppExport.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.323s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interface__rosidl_typesupport_cppExport.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_generator_pyExport.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/export_self_interface__rosidl_generator_pyExport-noconfig.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/rosidl_cmake-extras.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interfaceConfig.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/cmake/self_interfaceConfig-version.cmake
+[4.324s] -- Installing: /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface/share/self_interface/package.xml
+[4.328s] Invoked command in '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface

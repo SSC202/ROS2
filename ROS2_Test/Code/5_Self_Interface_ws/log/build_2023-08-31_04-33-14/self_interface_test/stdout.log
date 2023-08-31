@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/self_interface_test/self_interface_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/self_interface_test/self_interface_test.egg-info/dependency_links.txt
+writing entry points to ../../build/self_interface_test/self_interface_test.egg-info/entry_points.txt
+writing requirements to ../../build/self_interface_test/self_interface_test.egg-info/requires.txt
+writing top-level names to ../../build/self_interface_test/self_interface_test.egg-info/top_level.txt
+reading manifest file '../../build/self_interface_test/self_interface_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/self_interface_test/self_interface_test.egg-info/SOURCES.txt'
+running build
+running build_py
+copying self_interface_test/user_node.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test
+copying self_interface_test/robot_node.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test
+copying self_interface_test/robot.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test
+running install
+running install_lib
+copying /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test/user_node.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test
+copying /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test/robot_node.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test
+copying /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test/robot.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test
+byte-compiling /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test/user_node.py to user_node.cpython-310.pyc
+byte-compiling /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test/robot_node.py to robot_node.cpython-310.pyc
+byte-compiling /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test/robot.py to robot.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/self_interface_test/self_interface_test.egg-info to /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot script to /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/self_interface_test
+Installing user script to /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/self_interface_test
+writing list of installed files to '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/install.log'

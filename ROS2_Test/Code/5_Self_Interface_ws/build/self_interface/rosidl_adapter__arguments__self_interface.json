@@ -1,0 +1,7 @@
+{
+  "package_name": "self_interface",
+  "non_idl_tuples": [
+    "/data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface:msg/RobotStatus.msg",
+    "/data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface:srv/RobotCommand.srv"
+  ]
+}

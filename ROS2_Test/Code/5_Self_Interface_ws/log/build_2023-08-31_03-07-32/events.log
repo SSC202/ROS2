@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (self_interface) JobQueued: {'identifier': 'self_interface', 'dependencies': OrderedDict()}
+[0.000169] (self_interface_test) JobQueued: {'identifier': 'self_interface_test', 'dependencies': OrderedDict()}
+[0.000183] (self_interface) JobStarted: {'identifier': 'self_interface'}
+[0.030178] (self_interface_test) JobStarted: {'identifier': 'self_interface_test'}
+[0.037971] (self_interface) JobProgress: {'identifier': 'self_interface', 'progress': 'cmake'}
+[0.038144] (self_interface) Command: {'cmd': ['/usr/bin/cmake', '/data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface', '-DCMAKE_INSTALL_PREFIX=/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface'], 'cwd': '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface', 'env': OrderedDict([('HOSTNAME', '1175b47b7303'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/data/ROS2_Test/Code/5_Self_Interface_ws/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-386149b3-86c1-43e1-a2ab-49b56c358ae2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b910a038-0c0c-491d-ac9d-dcfc5c4fe1fb.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-b910a038-0c0c-491d-ac9d-dcfc5c4fe1fb.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-501ba1ea8b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-b910a038-0c0c-491d-ac9d-dcfc5c4fe1fb.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099321] (-) TimerEvent: {}
+[0.199577] (-) TimerEvent: {}
+[0.299919] (-) TimerEvent: {}
+[0.400200] (-) TimerEvent: {}
+[0.500516] (-) TimerEvent: {}
+[0.600970] (-) TimerEvent: {}
+[0.701408] (-) TimerEvent: {}
+[0.801941] (-) TimerEvent: {}
+[0.902384] (-) TimerEvent: {}
+[1.002798] (-) TimerEvent: {}
+[1.103093] (-) TimerEvent: {}
+[1.203359] (-) TimerEvent: {}
+[1.303651] (-) TimerEvent: {}
+[1.404210] (-) TimerEvent: {}
+[1.497149] (self_interface_test) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/self_interface_test', 'build', '--build-base', '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build', 'install', '--record', '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/install.log', '--single-version-externally-managed'], 'cwd': '/data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface_test', 'env': {'HOSTNAME': '1175b47b7303', 'GIT_ASKPASS': '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/data/ROS2_Test/Code/5_Self_Interface_ws/src', 'TERM_PROGRAM_VERSION': '1.81.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-386149b3-86c1-43e1-a2ab-49b56c358ae2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': '', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b910a038-0c0c-491d-ac9d-dcfc5c4fe1fb.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b910a038-0c0c-491d-ac9d-dcfc5c4fe1fb.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-501ba1ea8b.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b910a038-0c0c-491d-ac9d-dcfc5c4fe1fb.sock', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/prefix_override:/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.504289] (-) TimerEvent: {}
+[1.604522] (-) TimerEvent: {}
+[1.608608] (self_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.645881] (self_interface_test) StdoutLine: {'line': b'running egg_info\n'}
+[1.646363] (self_interface_test) StdoutLine: {'line': b'creating ../../build/self_interface_test/self_interface_test.egg-info\n'}
+[1.646473] (self_interface_test) StdoutLine: {'line': b'writing ../../build/self_interface_test/self_interface_test.egg-info/PKG-INFO\n'}
+[1.646650] (self_interface_test) StdoutLine: {'line': b'writing dependency_links to ../../build/self_interface_test/self_interface_test.egg-info/dependency_links.txt\n'}
+[1.646732] (self_interface_test) StdoutLine: {'line': b'writing entry points to ../../build/self_interface_test/self_interface_test.egg-info/entry_points.txt\n'}
+[1.646818] (self_interface_test) StdoutLine: {'line': b'writing requirements to ../../build/self_interface_test/self_interface_test.egg-info/requires.txt\n'}
+[1.646893] (self_interface_test) StdoutLine: {'line': b'writing top-level names to ../../build/self_interface_test/self_interface_test.egg-info/top_level.txt\n'}
+[1.646955] (self_interface_test) StdoutLine: {'line': b"writing manifest file '../../build/self_interface_test/self_interface_test.egg-info/SOURCES.txt'\n"}
+[1.648032] (self_interface_test) StdoutLine: {'line': b"reading manifest file '../../build/self_interface_test/self_interface_test.egg-info/SOURCES.txt'\n"}
+[1.648578] (self_interface_test) StdoutLine: {'line': b"writing manifest file '../../build/self_interface_test/self_interface_test.egg-info/SOURCES.txt'\n"}
+[1.648700] (self_interface_test) StdoutLine: {'line': b'running build\n'}
+[1.648746] (self_interface_test) StdoutLine: {'line': b'running build_py\n'}
+[1.648814] (self_interface_test) StdoutLine: {'line': b'creating /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build\n'}
+[1.648859] (self_interface_test) StdoutLine: {'line': b'creating /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib\n'}
+[1.648900] (self_interface_test) StdoutLine: {'line': b'creating /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test\n'}
+[1.648955] (self_interface_test) StdoutLine: {'line': b'copying self_interface_test/__init__.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test\n'}
+[1.649014] (self_interface_test) StdoutLine: {'line': b'running install\n'}
+[1.672864] (self_interface_test) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.673061] (self_interface_test) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.673350] (self_interface_test) StdoutLine: {'line': b'running install_lib\n'}
+[1.674170] (self_interface_test) StdoutLine: {'line': b'creating /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test\n'}
+[1.674297] (self_interface_test) StdoutLine: {'line': b'copying /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test/__init__.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test\n'}
+[1.674691] (self_interface_test) StdoutLine: {'line': b'byte-compiling /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test/__init__.py to __init__.cpython-310.pyc\n'}
+[1.674842] (self_interface_test) StdoutLine: {'line': b'running install_data\n'}
+[1.675374] (self_interface_test) StdoutLine: {'line': b'creating /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/ament_index\n'}
+[1.675534] (self_interface_test) StdoutLine: {'line': b'creating /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/ament_index/resource_index\n'}
+[1.675612] (self_interface_test) StdoutLine: {'line': b'creating /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/ament_index/resource_index/packages\n'}
+[1.675679] (self_interface_test) StdoutLine: {'line': b'copying resource/self_interface_test -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/ament_index/resource_index/packages\n'}
+[1.675778] (self_interface_test) StdoutLine: {'line': b'copying package.xml -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/self_interface_test\n'}
+[1.675854] (self_interface_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.677439] (self_interface_test) StdoutLine: {'line': b'Copying ../../build/self_interface_test/self_interface_test.egg-info to /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test-0.0.0-py3.10.egg-info\n'}
+[1.677895] (self_interface_test) StdoutLine: {'line': b'running install_scripts\n'}
+[1.692295] (self_interface_test) StdoutLine: {'line': b"writing list of installed files to '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/install.log'\n"}
+[1.704616] (-) TimerEvent: {}
+[1.710219] (self_interface_test) CommandEnded: {'returncode': 0}
+[1.780836] (self_interface_test) JobEnded: {'identifier': 'self_interface_test', 'rc': 0}
+[1.804754] (-) TimerEvent: {}
+[1.905150] (-) TimerEvent: {}
+[2.005609] (-) TimerEvent: {}
+[2.072317] (self_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.105765] (-) TimerEvent: {}
+[2.133056] (self_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.205904] (-) TimerEvent: {}
+[2.306308] (-) TimerEvent: {}
+[2.327705] (self_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.333007] (self_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.333475] (self_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.356817] (self_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.373105] (self_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.406572] (-) TimerEvent: {}
+[2.505010] (self_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.506703] (-) TimerEvent: {}
+[2.510766] (self_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.510928] (self_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.511318] (self_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.558273] (self_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.606955] (-) TimerEvent: {}
+[2.707383] (-) TimerEvent: {}
+[2.799891] (self_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.807504] (-) TimerEvent: {}
+[2.907850] (-) TimerEvent: {}
+[3.008284] (-) TimerEvent: {}
+[3.043091] (self_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.100968] (self_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.108399] (-) TimerEvent: {}
+[3.138600] (self_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.208568] (-) TimerEvent: {}
+[3.309096] (-) TimerEvent: {}
+[3.379469] (self_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.409286] (-) TimerEvent: {}
+[3.509645] (-) TimerEvent: {}
+[3.584154] (self_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):\n'}
+[3.584313] (self_interface) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed dependency 'geometry_msgs' has not\n"}
+[3.584359] (self_interface) StderrLine: {'line': b'  been found before using find_package()\n'}
+[3.584398] (self_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.584435] (self_interface) StderrLine: {'line': b'  CMakeLists.txt:11 (rosidl_generate_interfaces)\n'}
+[3.584472] (self_interface) StderrLine: {'line': b'\n'}
+[3.584509] (self_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[3.584546] (self_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.584589] (self_interface) StdoutLine: {'line': b'See also "/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface/CMakeFiles/CMakeOutput.log".\n'}
+[3.588843] (self_interface) CommandEnded: {'returncode': 1}
+[3.602919] (self_interface) JobEnded: {'identifier': 'self_interface', 'rc': 1}
+[3.609851] (-) TimerEvent: {}
+[3.613531] (-) EventReactorShutdown: {}

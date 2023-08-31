@@ -1,0 +1,4 @@
+[console_scripts]
+robot = self_interface_test.robot_node:main
+user = self_interface_test.user_node:main
+

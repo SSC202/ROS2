@@ -1,0 +1,2 @@
+Invoking command in '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface -DCMAKE_INSTALL_PREFIX=/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface
+Invoked command in '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface -DCMAKE_INSTALL_PREFIX=/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from self_interface/srv/RobotCommand.srv
+// generated code does not contain a copyright notice
+
+
+module self_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "机器人移动的距离（一维）")
+    struct RobotCommand_Request {
+      float distance;
+    };
+    @verbatim (language="comment", text=
+      "机器人当前位置（x坐标）")
+    struct RobotCommand_Response {
+      float pose;
+    };
+  };
+};

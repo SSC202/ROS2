@@ -1,0 +1,35 @@
+[1.468s] Invoking command in '/data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface_test': PYTHONPATH=/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/prefix_override:/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/self_interface_test build --build-base /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build install --record /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/install.log --single-version-externally-managed
+[1.616s] running egg_info
+[1.616s] creating ../../build/self_interface_test/self_interface_test.egg-info
+[1.616s] writing ../../build/self_interface_test/self_interface_test.egg-info/PKG-INFO
+[1.616s] writing dependency_links to ../../build/self_interface_test/self_interface_test.egg-info/dependency_links.txt
+[1.617s] writing entry points to ../../build/self_interface_test/self_interface_test.egg-info/entry_points.txt
+[1.617s] writing requirements to ../../build/self_interface_test/self_interface_test.egg-info/requires.txt
+[1.617s] writing top-level names to ../../build/self_interface_test/self_interface_test.egg-info/top_level.txt
+[1.617s] writing manifest file '../../build/self_interface_test/self_interface_test.egg-info/SOURCES.txt'
+[1.618s] reading manifest file '../../build/self_interface_test/self_interface_test.egg-info/SOURCES.txt'
+[1.618s] writing manifest file '../../build/self_interface_test/self_interface_test.egg-info/SOURCES.txt'
+[1.618s] running build
+[1.619s] running build_py
+[1.619s] creating /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build
+[1.619s] creating /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib
+[1.619s] creating /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test
+[1.619s] copying self_interface_test/__init__.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test
+[1.619s] running install
+[1.643s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.643s]   warnings.warn(
+[1.643s] running install_lib
+[1.644s] creating /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test
+[1.644s] copying /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build/lib/self_interface_test/__init__.py -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test
+[1.644s] byte-compiling /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test/__init__.py to __init__.cpython-310.pyc
+[1.645s] running install_data
+[1.645s] creating /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/ament_index
+[1.645s] creating /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/ament_index/resource_index
+[1.645s] creating /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/ament_index/resource_index/packages
+[1.645s] copying resource/self_interface_test -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/ament_index/resource_index/packages
+[1.646s] copying package.xml -> /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/share/self_interface_test
+[1.646s] running install_egg_info
+[1.647s] Copying ../../build/self_interface_test/self_interface_test.egg-info to /data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages/self_interface_test-0.0.0-py3.10.egg-info
+[1.648s] running install_scripts
+[1.662s] writing list of installed files to '/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/install.log'
+[1.680s] Invoked command in '/data/ROS2_Test/Code/5_Self_Interface_ws/src/self_interface_test' returned '0': PYTHONPATH=/data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/prefix_override:/data/ROS2_Test/Code/5_Self_Interface_ws/install/self_interface_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/self_interface_test build --build-base /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/build install --record /data/ROS2_Test/Code/5_Self_Interface_ws/build/self_interface_test/install.log --single-version-externally-managed

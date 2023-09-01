@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/param_test/param_test.egg-info
+writing ../../build/param_test/param_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/param_test/param_test.egg-info/dependency_links.txt
+writing entry points to ../../build/param_test/param_test.egg-info/entry_points.txt
+writing requirements to ../../build/param_test/param_test.egg-info/requires.txt
+writing top-level names to ../../build/param_test/param_test.egg-info/top_level.txt
+writing manifest file '../../build/param_test/param_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/param_test/param_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/param_test/param_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /data/ROS2_Test/Code/6_Param_ws/build/param_test/build
+creating /data/ROS2_Test/Code/6_Param_ws/build/param_test/build/lib
+creating /data/ROS2_Test/Code/6_Param_ws/build/param_test/build/lib/param_test
+copying param_test/__init__.py -> /data/ROS2_Test/Code/6_Param_ws/build/param_test/build/lib/param_test
+copying param_test/param_test.py -> /data/ROS2_Test/Code/6_Param_ws/build/param_test/build/lib/param_test
+running install
+running install_lib
+creating /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test
+copying /data/ROS2_Test/Code/6_Param_ws/build/param_test/build/lib/param_test/__init__.py -> /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test
+copying /data/ROS2_Test/Code/6_Param_ws/build/param_test/build/lib/param_test/param_test.py -> /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test
+byte-compiling /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test/param_test.py to param_test.cpython-310.pyc
+running install_data
+creating /data/ROS2_Test/Code/6_Param_ws/install/param_test/share/ament_index
+creating /data/ROS2_Test/Code/6_Param_ws/install/param_test/share/ament_index/resource_index
+creating /data/ROS2_Test/Code/6_Param_ws/install/param_test/share/ament_index/resource_index/packages
+copying resource/param_test -> /data/ROS2_Test/Code/6_Param_ws/install/param_test/share/ament_index/resource_index/packages
+copying package.xml -> /data/ROS2_Test/Code/6_Param_ws/install/param_test/share/param_test
+running install_egg_info
+Copying ../../build/param_test/param_test.egg-info to /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing param_node script to /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/param_test
+writing list of installed files to '/data/ROS2_Test/Code/6_Param_ws/build/param_test/install.log'

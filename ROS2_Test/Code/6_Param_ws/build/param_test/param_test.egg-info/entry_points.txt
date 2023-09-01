@@ -1,0 +1,3 @@
+[console_scripts]
+param_node = param_test.param_test:main
+

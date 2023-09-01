@@ -1,0 +1,26 @@
+[0.378s] Invoking command in '/data/ROS2_Test/Code/6_Param_ws/src/param_test': PYTHONPATH=/data/ROS2_Test/Code/6_Param_ws/build/param_test/prefix_override:/data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/param_test build --build-base /data/ROS2_Test/Code/6_Param_ws/build/param_test/build install --record /data/ROS2_Test/Code/6_Param_ws/build/param_test/install.log --single-version-externally-managed
+[0.520s] running egg_info
+[0.520s] writing ../../build/param_test/param_test.egg-info/PKG-INFO
+[0.520s] writing dependency_links to ../../build/param_test/param_test.egg-info/dependency_links.txt
+[0.521s] writing entry points to ../../build/param_test/param_test.egg-info/entry_points.txt
+[0.521s] writing requirements to ../../build/param_test/param_test.egg-info/requires.txt
+[0.521s] writing top-level names to ../../build/param_test/param_test.egg-info/top_level.txt
+[0.522s] reading manifest file '../../build/param_test/param_test.egg-info/SOURCES.txt'
+[0.522s] writing manifest file '../../build/param_test/param_test.egg-info/SOURCES.txt'
+[0.522s] running build
+[0.522s] running build_py
+[0.523s] copying param_test/param_test.py -> /data/ROS2_Test/Code/6_Param_ws/build/param_test/build/lib/param_test
+[0.523s] running install
+[0.523s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.523s]   warnings.warn(
+[0.523s] running install_lib
+[0.524s] copying /data/ROS2_Test/Code/6_Param_ws/build/param_test/build/lib/param_test/param_test.py -> /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test
+[0.524s] byte-compiling /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test/param_test.py to param_test.cpython-310.pyc
+[0.524s] running install_data
+[0.525s] running install_egg_info
+[0.526s] removing '/data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.526s] Copying ../../build/param_test/param_test.egg-info to /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages/param_test-0.0.0-py3.10.egg-info
+[0.527s] running install_scripts
+[0.542s] Installing param_node script to /data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/param_test
+[0.543s] writing list of installed files to '/data/ROS2_Test/Code/6_Param_ws/build/param_test/install.log'
+[0.559s] Invoked command in '/data/ROS2_Test/Code/6_Param_ws/src/param_test' returned '0': PYTHONPATH=/data/ROS2_Test/Code/6_Param_ws/build/param_test/prefix_override:/data/ROS2_Test/Code/6_Param_ws/install/param_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/param_test build --build-base /data/ROS2_Test/Code/6_Param_ws/build/param_test/build install --record /data/ROS2_Test/Code/6_Param_ws/build/param_test/install.log --single-version-externally-managed

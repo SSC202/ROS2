@@ -518,3 +518,73 @@ def main(args = None):
     rclpy.shutdown()
 ```
 
+## 3. 参数通信（Param）
+
+### 参数CLI
+
+```shell
+# 查看参数
+ros2 param list
+
+
+# 查看参数详细信息
+ros2 param describe <node_name> <param_name>
+
+# 查看参数值
+ros2 param get <node_name> <param_name>
+
+# 设置参数
+ros2 param set <node_name> <param_name>
+```
+
+### 参数通信原理
+
+ROS2 的参数由键值对构成。
+
+ROS2 参数类型支持以下几种：
+
+> 1. bool 和bool[]，布尔类型用来表示开关
+>
+> 2. int64 和int64[]，整形表示一个数字
+>
+> 3. float64 和float64[]，浮点型，可以表示小数类型的参数值
+>
+> 4. string 和string[]，字符串
+> 5. byte[]，字节数组，用来表示图片，点云数据等信息
+
+```python
+import rclpy
+from rclpy.node import Node
+
+class Param_Node(Node):
+    def __init__(self,name):
+        super().__init__(name)
+        # 声明参数
+        self.declare_parameter("log_value",0)
+        # 获取参数
+        log_value = self.get_parameter("log_value").value
+        # 设置参数
+        self.get_logger().set_level(log_value)
+        # 定时修改
+        self.timer = self.create_timer(1,self.timer_callback)
+
+    def timer_callback(self):
+        # 获取参数
+        log_value = self.get_parameter("log_value").value
+        # 设置参数
+        self.get_logger().set_level(log_value)
+        print(
+            f"========================{log_value}=============================")
+        self.get_logger().debug("我是DEBUG级别的日志，我被打印出来了!")
+        self.get_logger().info("我是INFO级别的日志，我被打印出来了!")
+        self.get_logger().warn("我是WARN级别的日志，我被打印出来了!")
+        self.get_logger().error("我是ERROR级别的日志，我被打印出来了!")
+        self.get_logger().fatal("我是FATAL级别的日志，我被打印出来了!")
+
+def main(args = None):
+    rclpy.init(args=args)
+    node = Param_Node("param_node")
+    rclpy.spin(node)
+    rclpy.shutdown()
+```
+

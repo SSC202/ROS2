@@ -1,0 +1,27 @@
+[0.469s] Invoking command in '/data/ROS2/ROS2_Test/Code/8_TF_Static_transform/src/tf_static_broadcast': PYTHONPATH=/data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/prefix_override:/data/ROS2/ROS2_Test/Code/8_TF_Static_transform/install/tf_static_broadcast/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_static_broadcast build --build-base /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/build install --record /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/install.log --single-version-externally-managed
+[0.625s] running egg_info
+[0.625s] writing ../../build/tf_static_broadcast/tf_static_broadcast.egg-info/PKG-INFO
+[0.625s] writing dependency_links to ../../build/tf_static_broadcast/tf_static_broadcast.egg-info/dependency_links.txt
+[0.626s] writing entry points to ../../build/tf_static_broadcast/tf_static_broadcast.egg-info/entry_points.txt
+[0.626s] writing requirements to ../../build/tf_static_broadcast/tf_static_broadcast.egg-info/requires.txt
+[0.626s] writing top-level names to ../../build/tf_static_broadcast/tf_static_broadcast.egg-info/top_level.txt
+[0.627s] reading manifest file '../../build/tf_static_broadcast/tf_static_broadcast.egg-info/SOURCES.txt'
+[0.628s] writing manifest file '../../build/tf_static_broadcast/tf_static_broadcast.egg-info/SOURCES.txt'
+[0.628s] running build
+[0.628s] running build_py
+[0.628s] copying tf_static_broadcast/tf_static_listener.py -> /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/build/lib/tf_static_broadcast
+[0.628s] running install
+[0.629s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.629s]   warnings.warn(
+[0.629s] running install_lib
+[0.630s] copying /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/build/lib/tf_static_broadcast/tf_static_listener.py -> /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/install/tf_static_broadcast/lib/python3.10/site-packages/tf_static_broadcast
+[0.630s] byte-compiling /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/install/tf_static_broadcast/lib/python3.10/site-packages/tf_static_broadcast/tf_static_listener.py to tf_static_listener.cpython-310.pyc
+[0.630s] running install_data
+[0.631s] running install_egg_info
+[0.632s] removing '/data/ROS2/ROS2_Test/Code/8_TF_Static_transform/install/tf_static_broadcast/lib/python3.10/site-packages/tf_static_broadcast-0.0.0-py3.10.egg-info' (and everything under it)
+[0.633s] Copying ../../build/tf_static_broadcast/tf_static_broadcast.egg-info to /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/install/tf_static_broadcast/lib/python3.10/site-packages/tf_static_broadcast-0.0.0-py3.10.egg-info
+[0.633s] running install_scripts
+[0.650s] Installing TF_Listener_Node script to /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/install/tf_static_broadcast/lib/tf_static_broadcast
+[0.650s] Installing TF_StaticBroadcaster_Node script to /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/install/tf_static_broadcast/lib/tf_static_broadcast
+[0.650s] writing list of installed files to '/data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/install.log'
+[0.669s] Invoked command in '/data/ROS2/ROS2_Test/Code/8_TF_Static_transform/src/tf_static_broadcast' returned '0': PYTHONPATH=/data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/prefix_override:/data/ROS2/ROS2_Test/Code/8_TF_Static_transform/install/tf_static_broadcast/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_static_broadcast build --build-base /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/build install --record /data/ROS2/ROS2_Test/Code/8_TF_Static_transform/build/tf_static_broadcast/install.log --single-version-externally-managed

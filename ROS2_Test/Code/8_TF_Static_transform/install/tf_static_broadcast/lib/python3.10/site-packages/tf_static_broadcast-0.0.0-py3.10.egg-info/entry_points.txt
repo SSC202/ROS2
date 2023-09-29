@@ -1,0 +1,4 @@
+[console_scripts]
+TF_Listener_Node = tf_static_broadcast.tf_static_listener:main
+TF_StaticBroadcaster_Node = tf_static_broadcast.tf_static_publisher:main
+

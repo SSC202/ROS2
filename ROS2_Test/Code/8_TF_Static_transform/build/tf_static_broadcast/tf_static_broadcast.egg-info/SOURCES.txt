@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/tf_static_broadcast/tf_static_broadcast.egg-info/PKG-INFO
+../../build/tf_static_broadcast/tf_static_broadcast.egg-info/SOURCES.txt
+../../build/tf_static_broadcast/tf_static_broadcast.egg-info/dependency_links.txt
+../../build/tf_static_broadcast/tf_static_broadcast.egg-info/entry_points.txt
+../../build/tf_static_broadcast/tf_static_broadcast.egg-info/requires.txt
+../../build/tf_static_broadcast/tf_static_broadcast.egg-info/top_level.txt
+../../build/tf_static_broadcast/tf_static_broadcast.egg-info/zip-safe
+resource/tf_static_broadcast
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+tf_static_broadcast/__init__.py
+tf_static_broadcast/tf_static_listener.py
+tf_static_broadcast/tf_static_publisher.py

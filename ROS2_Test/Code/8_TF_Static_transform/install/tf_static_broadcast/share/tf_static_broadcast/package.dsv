@@ -1,0 +1,6 @@
+source;share/tf_static_broadcast/hook/pythonpath.ps1
+source;share/tf_static_broadcast/hook/pythonpath.dsv
+source;share/tf_static_broadcast/hook/pythonpath.sh
+source;share/tf_static_broadcast/hook/ament_prefix_path.ps1
+source;share/tf_static_broadcast/hook/ament_prefix_path.dsv
+source;share/tf_static_broadcast/hook/ament_prefix_path.sh

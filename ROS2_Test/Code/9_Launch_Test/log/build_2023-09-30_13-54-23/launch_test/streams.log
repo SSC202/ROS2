@@ -1,0 +1,43 @@
+[1.039s] Invoking command in '/data/ROS2/ROS2_Test/Code/9_Launch_Test/src/launch_test': PYTHONPATH=/data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/prefix_override:/data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_test build --build-base /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build install --record /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/install.log --single-version-externally-managed
+[1.176s] running egg_info
+[1.176s] creating ../../build/launch_test/launch_test.egg-info
+[1.176s] writing ../../build/launch_test/launch_test.egg-info/PKG-INFO
+[1.177s] writing dependency_links to ../../build/launch_test/launch_test.egg-info/dependency_links.txt
+[1.177s] writing entry points to ../../build/launch_test/launch_test.egg-info/entry_points.txt
+[1.177s] writing requirements to ../../build/launch_test/launch_test.egg-info/requires.txt
+[1.177s] writing top-level names to ../../build/launch_test/launch_test.egg-info/top_level.txt
+[1.177s] writing manifest file '../../build/launch_test/launch_test.egg-info/SOURCES.txt'
+[1.178s] reading manifest file '../../build/launch_test/launch_test.egg-info/SOURCES.txt'
+[1.179s] writing manifest file '../../build/launch_test/launch_test.egg-info/SOURCES.txt'
+[1.179s] running build
+[1.179s] running build_py
+[1.179s] creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build
+[1.179s] creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib
+[1.179s] creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test
+[1.179s] copying launch_test/__init__.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test
+[1.179s] copying launch_test/node_1.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test
+[1.179s] copying launch_test/node_2.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test
+[1.179s] running install
+[1.180s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.180s]   warnings.warn(
+[1.180s] running install_lib
+[1.180s] creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test
+[1.180s] copying /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test/__init__.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test
+[1.180s] copying /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test/node_1.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test
+[1.180s] copying /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test/node_2.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test
+[1.181s] byte-compiling /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test/__init__.py to __init__.cpython-310.pyc
+[1.181s] byte-compiling /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test/node_1.py to node_1.cpython-310.pyc
+[1.181s] byte-compiling /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test/node_2.py to node_2.cpython-310.pyc
+[1.181s] running install_data
+[1.181s] creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/ament_index
+[1.182s] creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/ament_index/resource_index
+[1.182s] creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/ament_index/resource_index/packages
+[1.182s] copying resource/launch_test -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/ament_index/resource_index/packages
+[1.182s] copying package.xml -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/launch_test
+[1.182s] creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/launch_test/launch
+[1.182s] copying launch/start.launch.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/launch_test/launch
+[1.182s] running install_egg_info
+[1.183s] Copying ../../build/launch_test/launch_test.egg-info to /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test-0.0.0-py3.10.egg-info
+[1.183s] running install_scripts
+[1.197s] writing list of installed files to '/data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/install.log'
+[1.213s] Invoked command in '/data/ROS2/ROS2_Test/Code/9_Launch_Test/src/launch_test' returned '0': PYTHONPATH=/data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/prefix_override:/data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_test build --build-base /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build install --record /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/install.log --single-version-externally-managed

@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/launch_test/launch_test.egg-info
+writing ../../build/launch_test/launch_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_test/launch_test.egg-info/dependency_links.txt
+writing entry points to ../../build/launch_test/launch_test.egg-info/entry_points.txt
+writing requirements to ../../build/launch_test/launch_test.egg-info/requires.txt
+writing top-level names to ../../build/launch_test/launch_test.egg-info/top_level.txt
+writing manifest file '../../build/launch_test/launch_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/launch_test/launch_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/launch_test/launch_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build
+creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib
+creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test
+copying launch_test/__init__.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test
+copying launch_test/node_1.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test
+copying launch_test/node_2.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test
+copying /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test/__init__.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test
+copying /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test/node_1.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test
+copying /data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/build/lib/launch_test/node_2.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test
+byte-compiling /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test/node_1.py to node_1.cpython-310.pyc
+byte-compiling /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test/node_2.py to node_2.cpython-310.pyc
+running install_data
+creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/ament_index
+creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/ament_index/resource_index
+creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/ament_index/resource_index/packages
+copying resource/launch_test -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/ament_index/resource_index/packages
+copying package.xml -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/launch_test
+creating /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/launch_test/launch
+copying launch/start.launch.py -> /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/share/launch_test/launch
+running install_egg_info
+Copying ../../build/launch_test/launch_test.egg-info to /data/ROS2/ROS2_Test/Code/9_Launch_Test/install/launch_test/lib/python3.10/site-packages/launch_test-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/data/ROS2/ROS2_Test/Code/9_Launch_Test/build/launch_test/install.log'

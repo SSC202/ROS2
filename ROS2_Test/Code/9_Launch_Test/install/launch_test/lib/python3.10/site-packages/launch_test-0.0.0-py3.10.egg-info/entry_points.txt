@@ -1,0 +1,4 @@
+[console_scripts]
+node_1 = launch_test.node_1:main
+node_2 = launch_test.node_2:main
+

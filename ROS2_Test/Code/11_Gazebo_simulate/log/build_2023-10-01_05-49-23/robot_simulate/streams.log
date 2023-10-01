@@ -1,0 +1,26 @@
+[0.479s] Invoking command in '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/src/robot_simulate': PYTHONPATH=/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/prefix_override:/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_simulate build --build-base /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/build install --record /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/install.log --single-version-externally-managed
+[0.640s] running egg_info
+[0.640s] writing ../../build/robot_simulate/robot_simulate.egg-info/PKG-INFO
+[0.640s] writing dependency_links to ../../build/robot_simulate/robot_simulate.egg-info/dependency_links.txt
+[0.641s] writing entry points to ../../build/robot_simulate/robot_simulate.egg-info/entry_points.txt
+[0.641s] writing requirements to ../../build/robot_simulate/robot_simulate.egg-info/requires.txt
+[0.641s] writing top-level names to ../../build/robot_simulate/robot_simulate.egg-info/top_level.txt
+[0.642s] reading manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'
+[0.642s] writing manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] running install
+[0.643s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.643s]   warnings.warn(
+[0.643s] running install_lib
+[0.643s] running install_data
+[0.644s] creating /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/launch
+[0.644s] copying launch/start.launch.py -> /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/launch
+[0.644s] creating /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/urdf
+[0.644s] copying urdf/robot.urdf -> /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/urdf
+[0.644s] running install_egg_info
+[0.645s] removing '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/lib/python3.10/site-packages/robot_simulate-0.0.0-py3.10.egg-info' (and everything under it)
+[0.645s] Copying ../../build/robot_simulate/robot_simulate.egg-info to /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/lib/python3.10/site-packages/robot_simulate-0.0.0-py3.10.egg-info
+[0.646s] running install_scripts
+[0.662s] writing list of installed files to '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/install.log'
+[0.679s] Invoked command in '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/src/robot_simulate' returned '0': PYTHONPATH=/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/prefix_override:/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_simulate build --build-base /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/build install --record /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/install.log --single-version-externally-managed

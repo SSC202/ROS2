@@ -15,3 +15,4 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/robot_base.urdf
 urdf_robot_create/__init__.py
+urdf_robot_create/wheel_control.py

@@ -32,8 +32,14 @@ def generate_launch_description():
         output='screen',
         )
     
+    wheel_control_node = Node(
+        package="urdf_robot_create",
+        executable="wheel_control_node",
+    )
+    
+    # ld.add_action(wheel_control_node)
     ld.add_action(robot_state_publisher_node)
-    ld.add_action(joint_state_publisher_node)
     ld.add_action(rviz2_node)
+    # ld.add_action(joint_state_publisher_node)
 
     return ld

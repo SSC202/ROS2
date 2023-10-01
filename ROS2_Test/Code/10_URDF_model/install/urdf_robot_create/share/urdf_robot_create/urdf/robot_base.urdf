@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <robot name="fishbot">
+
+    <!-- Robot Footprint -->
+    <link name="base_footprint"/>
     
     <!-- base link -->
     <link name="base_link">
@@ -35,7 +38,46 @@
                 <box size="0.02 0.02 0.02"/>
             </geometry>
         </visual>
-  </link>
+    </link>
+
+    <!-- left wheel link -->
+    <link name="left_wheel_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.57079 0 0"/>
+            <geometry>
+                <cylinder length="0.04" radius="0.032"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.5" /> 
+            </material>
+        </visual>
+    </link>
+
+    <!-- right wheel link -->
+    <link name="right_wheel_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.57079 0 0"/>
+            <geometry>
+                <cylinder length="0.04" radius="0.032"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.5" /> 
+            </material>
+        </visual>
+    </link>
+
+    <!-- caster link -->
+    <link name="caster_link">
+        <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <sphere radius="0.016"/>
+        </geometry>
+            <material name="black">
+            <color rgba="0.0 0.0 0.0 0.5" /> 
+            </material>
+        </visual>
+    </link>
     
     <!-- laser joint -->
     <joint name="laser_joint" type="fixed">
@@ -49,6 +91,36 @@
         <parent link="base_link" />
         <child link="imu_link" />
         <origin xyz="0 0 0.02" />
+    </joint>
+
+    <!-- left wheel joint -->
+    <joint name="left_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="left_wheel_link" />
+        <origin xyz="-0.02 0.10 -0.06" />
+        <axis xyz="0 1 0" />    
+    </joint>
+
+    <!-- right wheel joint -->
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="right_wheel_link" />
+        <origin xyz="-0.02 -0.10 -0.06" />
+        <axis xyz="0 1 0" />    
+    </joint>
+
+    <!-- Caster joint -->
+    <joint name="caster_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="caster_link" />
+        <origin xyz="0.06 0.0 -0.076" />
+    </joint>
+
+    <!-- footprint joint -->
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.076" rpy="0 0 0"/>
     </joint>
 
 </robot>

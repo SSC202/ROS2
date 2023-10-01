@@ -25,6 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "wheel_control_node=urdf_robot_create.wheel_control:main",
         ],
     },
 )

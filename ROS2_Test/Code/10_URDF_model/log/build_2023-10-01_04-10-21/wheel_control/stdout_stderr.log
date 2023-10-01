@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/wheel_control/wheel_control.egg-info
+writing ../../build/wheel_control/wheel_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/wheel_control/wheel_control.egg-info/dependency_links.txt
+writing entry points to ../../build/wheel_control/wheel_control.egg-info/entry_points.txt
+writing requirements to ../../build/wheel_control/wheel_control.egg-info/requires.txt
+writing top-level names to ../../build/wheel_control/wheel_control.egg-info/top_level.txt
+writing manifest file '../../build/wheel_control/wheel_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/wheel_control/wheel_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/wheel_control/wheel_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build
+creating /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib
+creating /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control
+copying wheel_control/__init__.py -> /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control
+copying wheel_control/wheel_control.py -> /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control
+copying /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control/__init__.py -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control
+copying /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control/wheel_control.py -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control
+byte-compiling /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control/wheel_control.py to wheel_control.cpython-310.pyc
+running install_data
+creating /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/ament_index
+creating /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/ament_index/resource_index
+creating /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/ament_index/resource_index/packages
+copying resource/wheel_control -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/ament_index/resource_index/packages
+copying package.xml -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/wheel_control
+running install_egg_info
+Copying ../../build/wheel_control/wheel_control.egg-info to /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing wheel_control_node script to /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/wheel_control
+writing list of installed files to '/data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/install.log'

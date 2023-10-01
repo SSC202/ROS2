@@ -1,0 +1,39 @@
+[0.677s] Invoking command in '/data/ROS2/ROS2_Test/Code/10_URDF_model/src/wheel_control': PYTHONPATH=/data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/prefix_override:/data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wheel_control build --build-base /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build install --record /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/install.log --single-version-externally-managed
+[0.827s] running egg_info
+[0.828s] creating ../../build/wheel_control/wheel_control.egg-info
+[0.828s] writing ../../build/wheel_control/wheel_control.egg-info/PKG-INFO
+[0.828s] writing dependency_links to ../../build/wheel_control/wheel_control.egg-info/dependency_links.txt
+[0.828s] writing entry points to ../../build/wheel_control/wheel_control.egg-info/entry_points.txt
+[0.828s] writing requirements to ../../build/wheel_control/wheel_control.egg-info/requires.txt
+[0.828s] writing top-level names to ../../build/wheel_control/wheel_control.egg-info/top_level.txt
+[0.828s] writing manifest file '../../build/wheel_control/wheel_control.egg-info/SOURCES.txt'
+[0.829s] reading manifest file '../../build/wheel_control/wheel_control.egg-info/SOURCES.txt'
+[0.830s] writing manifest file '../../build/wheel_control/wheel_control.egg-info/SOURCES.txt'
+[0.830s] running build
+[0.830s] running build_py
+[0.830s] creating /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build
+[0.830s] creating /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib
+[0.830s] creating /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control
+[0.830s] copying wheel_control/__init__.py -> /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control
+[0.830s] copying wheel_control/wheel_control.py -> /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control
+[0.830s] running install
+[0.830s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.830s]   warnings.warn(
+[0.831s] running install_lib
+[0.831s] creating /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control
+[0.831s] copying /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control/__init__.py -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control
+[0.831s] copying /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build/lib/wheel_control/wheel_control.py -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control
+[0.831s] byte-compiling /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control/__init__.py to __init__.cpython-310.pyc
+[0.832s] byte-compiling /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control/wheel_control.py to wheel_control.cpython-310.pyc
+[0.832s] running install_data
+[0.832s] creating /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/ament_index
+[0.832s] creating /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/ament_index/resource_index
+[0.833s] creating /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/ament_index/resource_index/packages
+[0.833s] copying resource/wheel_control -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/ament_index/resource_index/packages
+[0.833s] copying package.xml -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/share/wheel_control
+[0.833s] running install_egg_info
+[0.834s] Copying ../../build/wheel_control/wheel_control.egg-info to /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages/wheel_control-0.0.0-py3.10.egg-info
+[0.834s] running install_scripts
+[0.850s] Installing wheel_control_node script to /data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/wheel_control
+[0.850s] writing list of installed files to '/data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/install.log'
+[0.900s] Invoked command in '/data/ROS2/ROS2_Test/Code/10_URDF_model/src/wheel_control' returned '0': PYTHONPATH=/data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/prefix_override:/data/ROS2/ROS2_Test/Code/10_URDF_model/install/wheel_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wheel_control build --build-base /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/build install --record /data/ROS2/ROS2_Test/Code/10_URDF_model/build/wheel_control/install.log --single-version-externally-managed

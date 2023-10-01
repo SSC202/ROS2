@@ -1,0 +1,23 @@
+[0.463s] Invoking command in '/data/ROS2/ROS2_Test/Code/10_URDF_model/src/urdf_robot_create': PYTHONPATH=/data/ROS2/ROS2_Test/Code/10_URDF_model/build/urdf_robot_create/prefix_override:/data/ROS2/ROS2_Test/Code/10_URDF_model/install/urdf_robot_create/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/urdf_robot_create build --build-base /data/ROS2/ROS2_Test/Code/10_URDF_model/build/urdf_robot_create/build install --record /data/ROS2/ROS2_Test/Code/10_URDF_model/build/urdf_robot_create/install.log --single-version-externally-managed
+[0.620s] running egg_info
+[0.620s] writing ../../build/urdf_robot_create/urdf_robot_create.egg-info/PKG-INFO
+[0.620s] writing dependency_links to ../../build/urdf_robot_create/urdf_robot_create.egg-info/dependency_links.txt
+[0.620s] writing entry points to ../../build/urdf_robot_create/urdf_robot_create.egg-info/entry_points.txt
+[0.620s] writing requirements to ../../build/urdf_robot_create/urdf_robot_create.egg-info/requires.txt
+[0.620s] writing top-level names to ../../build/urdf_robot_create/urdf_robot_create.egg-info/top_level.txt
+[0.622s] reading manifest file '../../build/urdf_robot_create/urdf_robot_create.egg-info/SOURCES.txt'
+[0.623s] writing manifest file '../../build/urdf_robot_create/urdf_robot_create.egg-info/SOURCES.txt'
+[0.623s] running build
+[0.623s] running build_py
+[0.623s] running install
+[0.623s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.623s]   warnings.warn(
+[0.624s] running install_lib
+[0.625s] running install_data
+[0.625s] copying urdf/robot_base.urdf -> /data/ROS2/ROS2_Test/Code/10_URDF_model/install/urdf_robot_create/share/urdf_robot_create/urdf
+[0.625s] running install_egg_info
+[0.627s] removing '/data/ROS2/ROS2_Test/Code/10_URDF_model/install/urdf_robot_create/lib/python3.10/site-packages/urdf_robot_create-0.0.0-py3.10.egg-info' (and everything under it)
+[0.627s] Copying ../../build/urdf_robot_create/urdf_robot_create.egg-info to /data/ROS2/ROS2_Test/Code/10_URDF_model/install/urdf_robot_create/lib/python3.10/site-packages/urdf_robot_create-0.0.0-py3.10.egg-info
+[0.627s] running install_scripts
+[0.645s] writing list of installed files to '/data/ROS2/ROS2_Test/Code/10_URDF_model/build/urdf_robot_create/install.log'
+[0.662s] Invoked command in '/data/ROS2/ROS2_Test/Code/10_URDF_model/src/urdf_robot_create' returned '0': PYTHONPATH=/data/ROS2/ROS2_Test/Code/10_URDF_model/build/urdf_robot_create/prefix_override:/data/ROS2/ROS2_Test/Code/10_URDF_model/install/urdf_robot_create/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/urdf_robot_create build --build-base /data/ROS2/ROS2_Test/Code/10_URDF_model/build/urdf_robot_create/build install --record /data/ROS2/ROS2_Test/Code/10_URDF_model/build/urdf_robot_create/install.log --single-version-externally-managed

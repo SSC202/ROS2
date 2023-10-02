@@ -1,0 +1,4 @@
+Invoking command in '/data/ROS2/ROS2_Test/Code/A_1_stm32_microros_host_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data/ROS2/ROS2_Test/Code/A_1_stm32_microros_host_ws/build/micro_ros_setup -- -j8 -l8
+Invoked command in '/data/ROS2/ROS2_Test/Code/A_1_stm32_microros_host_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data/ROS2/ROS2_Test/Code/A_1_stm32_microros_host_ws/build/micro_ros_setup -- -j8 -l8
+Invoking command in '/data/ROS2/ROS2_Test/Code/A_1_stm32_microros_host_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data/ROS2/ROS2_Test/Code/A_1_stm32_microros_host_ws/build/micro_ros_setup
+Invoked command in '/data/ROS2/ROS2_Test/Code/A_1_stm32_microros_host_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data/ROS2/ROS2_Test/Code/A_1_stm32_microros_host_ws/build/micro_ros_setup

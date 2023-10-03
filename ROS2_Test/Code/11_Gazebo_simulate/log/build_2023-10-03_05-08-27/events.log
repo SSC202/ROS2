@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000263] (robot_simulate) JobQueued: {'identifier': 'robot_simulate', 'dependencies': OrderedDict()}
+[0.000298] (robot_simulate) JobStarted: {'identifier': 'robot_simulate'}
+[0.099331] (-) TimerEvent: {}
+[0.199950] (-) TimerEvent: {}
+[0.300394] (-) TimerEvent: {}
+[0.401092] (-) TimerEvent: {}
+[0.501434] (-) TimerEvent: {}
+[0.601921] (-) TimerEvent: {}
+[0.702518] (-) TimerEvent: {}
+[0.803175] (-) TimerEvent: {}
+[0.903659] (-) TimerEvent: {}
+[1.004242] (-) TimerEvent: {}
+[1.104831] (-) TimerEvent: {}
+[1.205463] (-) TimerEvent: {}
+[1.306004] (-) TimerEvent: {}
+[1.406610] (-) TimerEvent: {}
+[1.507068] (-) TimerEvent: {}
+[1.607518] (-) TimerEvent: {}
+[1.707895] (-) TimerEvent: {}
+[1.808242] (-) TimerEvent: {}
+[1.908692] (-) TimerEvent: {}
+[2.009332] (-) TimerEvent: {}
+[2.109853] (-) TimerEvent: {}
+[2.210451] (-) TimerEvent: {}
+[2.311060] (-) TimerEvent: {}
+[2.411528] (-) TimerEvent: {}
+[2.512097] (-) TimerEvent: {}
+[2.612600] (-) TimerEvent: {}
+[2.713031] (-) TimerEvent: {}
+[2.813605] (-) TimerEvent: {}
+[2.914226] (-) TimerEvent: {}
+[3.014808] (-) TimerEvent: {}
+[3.115420] (-) TimerEvent: {}
+[3.216067] (-) TimerEvent: {}
+[3.316697] (-) TimerEvent: {}
+[3.417302] (-) TimerEvent: {}
+[3.517906] (-) TimerEvent: {}
+[3.618585] (-) TimerEvent: {}
+[3.719220] (-) TimerEvent: {}
+[3.819837] (-) TimerEvent: {}
+[3.920441] (-) TimerEvent: {}
+[4.020990] (-) TimerEvent: {}
+[4.121590] (-) TimerEvent: {}
+[4.222152] (-) TimerEvent: {}
+[4.322724] (-) TimerEvent: {}
+[4.423150] (-) TimerEvent: {}
+[4.523545] (-) TimerEvent: {}
+[4.624171] (-) TimerEvent: {}
+[4.724882] (-) TimerEvent: {}
+[4.825574] (-) TimerEvent: {}
+[4.926215] (-) TimerEvent: {}
+[5.026816] (-) TimerEvent: {}
+[5.127388] (-) TimerEvent: {}
+[5.227865] (-) TimerEvent: {}
+[5.328442] (-) TimerEvent: {}
+[5.428838] (-) TimerEvent: {}
+[5.529331] (-) TimerEvent: {}
+[5.629913] (-) TimerEvent: {}
+[5.730596] (-) TimerEvent: {}
+[5.831156] (-) TimerEvent: {}
+[5.931684] (-) TimerEvent: {}
+[6.032326] (-) TimerEvent: {}
+[6.133033] (-) TimerEvent: {}
+[6.233700] (-) TimerEvent: {}
+[6.334374] (-) TimerEvent: {}
+[6.434958] (-) TimerEvent: {}
+[6.535503] (-) TimerEvent: {}
+[6.636144] (-) TimerEvent: {}
+[6.736797] (-) TimerEvent: {}
+[6.837466] (-) TimerEvent: {}
+[6.938141] (-) TimerEvent: {}
+[7.038785] (-) TimerEvent: {}
+[7.139395] (-) TimerEvent: {}
+[7.240056] (-) TimerEvent: {}
+[7.340699] (-) TimerEvent: {}
+[7.441335] (-) TimerEvent: {}
+[7.541986] (-) TimerEvent: {}
+[7.642626] (-) TimerEvent: {}
+[7.743258] (-) TimerEvent: {}
+[7.843806] (-) TimerEvent: {}
+[7.944456] (-) TimerEvent: {}
+[8.045108] (-) TimerEvent: {}
+[8.145707] (-) TimerEvent: {}
+[8.246368] (-) TimerEvent: {}
+[8.347008] (-) TimerEvent: {}
+[8.447656] (-) TimerEvent: {}
+[8.548301] (-) TimerEvent: {}
+[8.648972] (-) TimerEvent: {}
+[8.749590] (-) TimerEvent: {}
+[8.850069] (-) TimerEvent: {}
+[8.950619] (-) TimerEvent: {}
+[9.051102] (-) TimerEvent: {}
+[9.151671] (-) TimerEvent: {}
+[9.252219] (-) TimerEvent: {}
+[9.352674] (-) TimerEvent: {}
+[9.453225] (-) TimerEvent: {}
+[9.553837] (-) TimerEvent: {}
+[9.654470] (-) TimerEvent: {}
+[9.754975] (-) TimerEvent: {}
+[9.855470] (-) TimerEvent: {}
+[9.956043] (-) TimerEvent: {}
+[10.056473] (-) TimerEvent: {}
+[10.156834] (-) TimerEvent: {}
+[10.257168] (-) TimerEvent: {}
+[10.357649] (-) TimerEvent: {}
+[10.457934] (-) TimerEvent: {}
+[10.558359] (-) TimerEvent: {}
+[10.658843] (-) TimerEvent: {}
+[10.759209] (-) TimerEvent: {}
+[10.859627] (-) TimerEvent: {}
+[10.960178] (-) TimerEvent: {}
+[11.060644] (-) TimerEvent: {}
+[11.161099] (-) TimerEvent: {}
+[11.229597] (robot_simulate) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_simulate', 'build', '--build-base', '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/build', 'install', '--record', '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/install.log', '--single-version-externally-managed'], 'cwd': '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/src/robot_simulate', 'env': {'HOSTNAME': 'ssc-KLVD-WXX9', 'GIT_ASKPASS': '/root/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/data/ROS2/ROS2_Test/Code', 'TERM_PROGRAM_VERSION': '1.82.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-0937fce8-347d-4693-b3e3-de85907e9f95.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': '', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e34c4280-0e8f-496b-a07d-bf07648f9b4c.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-e34c4280-0e8f-496b-a07d-bf07648f9b4c.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-501ba1ea8b.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-e34c4280-0e8f-496b-a07d-bf07648f9b4c.sock', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/build/robot_simulate/prefix_override:/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[11.261176] (-) TimerEvent: {}
+[11.361476] (-) TimerEvent: {}
+[11.384370] (robot_simulate) StdoutLine: {'line': b'running egg_info\n'}
+[11.384976] (robot_simulate) StdoutLine: {'line': b'writing ../../build/robot_simulate/robot_simulate.egg-info/PKG-INFO\n'}
+[11.385177] (robot_simulate) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_simulate/robot_simulate.egg-info/dependency_links.txt\n'}
+[11.385315] (robot_simulate) StdoutLine: {'line': b'writing entry points to ../../build/robot_simulate/robot_simulate.egg-info/entry_points.txt\n'}
+[11.385410] (robot_simulate) StdoutLine: {'line': b'writing requirements to ../../build/robot_simulate/robot_simulate.egg-info/requires.txt\n'}
+[11.385483] (robot_simulate) StdoutLine: {'line': b'writing top-level names to ../../build/robot_simulate/robot_simulate.egg-info/top_level.txt\n'}
+[11.387371] (robot_simulate) StdoutLine: {'line': b"reading manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'\n"}
+[11.388003] (robot_simulate) StdoutLine: {'line': b"writing manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'\n"}
+[11.388081] (robot_simulate) StdoutLine: {'line': b'running build\n'}
+[11.388128] (robot_simulate) StdoutLine: {'line': b'running build_py\n'}
+[11.388215] (robot_simulate) StdoutLine: {'line': b'running install\n'}
+[11.398548] (robot_simulate) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.398714] (robot_simulate) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.398938] (robot_simulate) StdoutLine: {'line': b'running install_lib\n'}
+[11.399931] (robot_simulate) StdoutLine: {'line': b'running install_data\n'}
+[11.400163] (robot_simulate) StdoutLine: {'line': b'copying launch/start.launch.py -> /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/launch\n'}
+[11.400366] (robot_simulate) StdoutLine: {'line': b'creating /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/world\n'}
+[11.400544] (robot_simulate) StderrLine: {'line': b"error: can't copy 'world/robot_world': doesn't exist or not a regular file\n"}
+[11.413551] (robot_simulate) CommandEnded: {'returncode': 1}
+[11.413851] (robot_simulate) JobEnded: {'identifier': 'robot_simulate', 'rc': 1}
+[11.423976] (-) EventReactorShutdown: {}

@@ -9,14 +9,15 @@ def generate_launch_description():
     robot_name_in_model = 'fishbot'
     package_name = 'robot_simulate'
     urdf_name = "robot.urdf"
-
+    
     ld = LaunchDescription()
     pkg_share = FindPackageShare(package=package_name).find(package_name) 
     urdf_model_path = os.path.join(pkg_share, f'urdf/{urdf_name}')
+    gazebo_world_path = os.path.join(pkg_share, 'world/robot.world')
 
     # Start Gazebo server
     start_gazebo_cmd =  ExecuteProcess(
-        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
+        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so',gazebo_world_path],
         output='screen')
 
     # Launch the robot

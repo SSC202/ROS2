@@ -4,6 +4,7 @@
 /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/package.xml
 /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/launch/start.launch.py
 /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/urdf/robot.urdf
+/data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/share/robot_simulate/world/robot.world
 /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/lib/python3.10/site-packages/robot_simulate-0.0.0-py3.10.egg-info/PKG-INFO
 /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/lib/python3.10/site-packages/robot_simulate-0.0.0-py3.10.egg-info/zip-safe
 /data/ROS2/ROS2_Test/Code/11_Gazebo_simulate/install/robot_simulate/lib/python3.10/site-packages/robot_simulate-0.0.0-py3.10.egg-info/dependency_links.txt

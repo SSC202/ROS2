@@ -1,0 +1,3 @@
+[console_scripts]
+LaserscanNode = laserscan_read.laserscan_read:main
+

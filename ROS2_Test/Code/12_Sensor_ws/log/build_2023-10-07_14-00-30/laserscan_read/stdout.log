@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/laserscan_read/laserscan_read.egg-info/PKG-INFO
+writing dependency_links to ../../build/laserscan_read/laserscan_read.egg-info/dependency_links.txt
+writing entry points to ../../build/laserscan_read/laserscan_read.egg-info/entry_points.txt
+writing requirements to ../../build/laserscan_read/laserscan_read.egg-info/requires.txt
+writing top-level names to ../../build/laserscan_read/laserscan_read.egg-info/top_level.txt
+reading manifest file '../../build/laserscan_read/laserscan_read.egg-info/SOURCES.txt'
+writing manifest file '../../build/laserscan_read/laserscan_read.egg-info/SOURCES.txt'
+running build
+running build_py
+copying laserscan_read/laserscan_read.py -> /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build/lib/laserscan_read
+running install
+running install_lib
+copying /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build/lib/laserscan_read/laserscan_read.py -> /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read
+byte-compiling /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read/laserscan_read.py to laserscan_read.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/laserscan_read/laserscan_read.egg-info to /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read-0.0.0-py3.10.egg-info
+running install_scripts
+Installing LaserscanNode script to /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/laserscan_read
+writing list of installed files to '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/install.log'

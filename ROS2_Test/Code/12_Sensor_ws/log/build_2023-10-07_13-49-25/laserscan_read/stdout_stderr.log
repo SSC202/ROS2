@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/laserscan_read/laserscan_read.egg-info
+writing ../../build/laserscan_read/laserscan_read.egg-info/PKG-INFO
+writing dependency_links to ../../build/laserscan_read/laserscan_read.egg-info/dependency_links.txt
+writing entry points to ../../build/laserscan_read/laserscan_read.egg-info/entry_points.txt
+writing requirements to ../../build/laserscan_read/laserscan_read.egg-info/requires.txt
+writing top-level names to ../../build/laserscan_read/laserscan_read.egg-info/top_level.txt
+writing manifest file '../../build/laserscan_read/laserscan_read.egg-info/SOURCES.txt'
+reading manifest file '../../build/laserscan_read/laserscan_read.egg-info/SOURCES.txt'
+writing manifest file '../../build/laserscan_read/laserscan_read.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build
+creating /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build/lib
+creating /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build/lib/laserscan_read
+copying laserscan_read/__init__.py -> /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build/lib/laserscan_read
+copying laserscan_read/laserscan_read.py -> /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build/lib/laserscan_read
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read
+copying /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build/lib/laserscan_read/__init__.py -> /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read
+copying /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/build/lib/laserscan_read/laserscan_read.py -> /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read
+byte-compiling /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read/__init__.py to __init__.cpython-310.pyc
+byte-compiling /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read/laserscan_read.py to laserscan_read.cpython-310.pyc
+running install_data
+creating /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/share/ament_index
+creating /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/share/ament_index/resource_index
+creating /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/share/ament_index/resource_index/packages
+copying resource/laserscan_read -> /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/share/ament_index/resource_index/packages
+copying package.xml -> /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/share/laserscan_read
+running install_egg_info
+Copying ../../build/laserscan_read/laserscan_read.egg-info to /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/python3.10/site-packages/laserscan_read-0.0.0-py3.10.egg-info
+running install_scripts
+Installing laserscan_read_node script to /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laserscan_read/lib/laserscan_read
+writing list of installed files to '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/laserscan_read/install.log'

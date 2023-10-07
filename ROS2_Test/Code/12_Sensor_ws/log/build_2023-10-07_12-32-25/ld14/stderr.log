@@ -1,0 +1,60 @@
+In file included from [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:9[m[K:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:[m[K In constructor ‘[01m[KLiPkg::LiPkg()[m[K’:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:84:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KLiPkg::mIsFrameReady[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   84 |         bool [01;35m[KmIsFrameReady[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:83:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool LiPkg::mIsPkgReady[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   83 |         bool [01;35m[KmIsPkgReady[m[K;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:54:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   54 | [01;35m[KLiPkg[m[K::LiPkg():
+      | [01;35m[K^~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:71:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   71 |                 for(int j=0;[01;35m[Kj<parted_max.size()[m[K;++j)
+      |                             [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:[m[K In member function ‘[01m[Kbool LiPkg::AssemblePacket()[m[K’:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:279:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PointData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  279 |                         if([01;35m[Ktmp_count == tmp.size()[m[K){
+      |                            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:289:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  289 |                         for(int j=0;[01;35m[Kj<parted_max.size()[m[K;++j)
+      |                                     [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:292:94:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kfloat[m[K’ to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<short unsigned int>, short unsigned int>::value_type[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} changes value from ‘[01m[K+Inff[m[K’ to ‘[01m[K65535[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+  292 |                                 mFrameData.distance[i] = [01;35m[Kstd::numeric_limits<float>::infinity()[m[K;  // 如果不在角度不在扫描范围内，将该角度对应的目标距离置为无穷大
+      |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:269:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp_range_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  269 |                         int [01;35m[Ktmp_range_min[m[K=0;
+      |                             [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:220:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangle_cur[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  220 |         double [01;35m[Kangle_cur[m[K;
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:[m[K In constructor ‘[01m[KSlTransform::SlTransform(LDVersion, bool)[m[K’:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:24:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_right_hand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 | SlTransform::SlTransform(LDVersion version,  [01;35m[Kbool to_right_hand[m[K)
+      |                                              [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:[m[K In member function ‘[01m[KPoints2D SlTransform::Transform(const Points2D&)[m[K’:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:66:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |         double [01;35m[Kd[m[K = sqrt(x * x + y * y);
+      |                [01;35m[K^[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/slbf.cpp:[m[K In member function ‘[01m[KPoints2D Slbf::NearFilter(const Points2D&) const[m[K’:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/slbf.cpp:174:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PointData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  174 |                 for (int i = 1; [01;35m[Ki < n.size()[m[K; i++)
+      |                                 [01;35m[K~~^~~~~~~~~~[m[K
+In file included from [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.cpp:1[m[K:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:[m[K In constructor ‘[01m[KCmdInterfaceLinux::CmdInterfaceLinux(int32_t)[m[K’:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:36:58:[m[K [01;35m[Kwarning: [m[K‘[01m[KCmdInterfaceLinux::mReadCallback[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   36 |         std::function<void(const char *, size_t length)> [01;35m[KmReadCallback[m[K;
+      |                                                          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:33:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t CmdInterfaceLinux::version[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   33 |     int32_t [01;35m[Kversion[m[K;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.cpp:18:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   18 | [01;35m[KCmdInterfaceLinux[m[K::CmdInterfaceLinux(int32_t ver):mRxThread(nullptr),
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:166:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  166 |                                         if([01;35m[Ki<data.len/2[m[K)
+      |                                            [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:181:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  181 |                                 for(int i=0;[01;35m[Ki<data.len[m[K;i++)
+      |                                             [01;35m[K~^~~~~~~~~[m[K

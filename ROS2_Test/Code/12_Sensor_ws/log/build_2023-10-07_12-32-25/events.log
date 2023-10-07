@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (ld14) JobQueued: {'identifier': 'ld14', 'dependencies': OrderedDict()}
+[0.000252] (ld14) JobStarted: {'identifier': 'ld14'}
+[0.049112] (ld14) JobProgress: {'identifier': 'ld14', 'progress': 'cmake'}
+[0.049282] (ld14) Command: {'cmd': ['/usr/bin/cmake', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14', '-DCMAKE_INSTALL_PREFIX=/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14'], 'cwd': '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14', 'env': OrderedDict([('HOSTNAME', 'ssc-KLVD-WXX9'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6036ed4a-3e5e-491c-9c19-b275b7fd982b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-aef4be1d-2698-4620-b261-28ee9f4c3727.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-aef4be1d-2698-4620-b261-28ee9f4c3727.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-501ba1ea8b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-aef4be1d-2698-4620-b261-28ee9f4c3727.sock'), ('AMENT_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laser-scan-ld14:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laser-scan-ld14:/opt/ros/humble')]), 'shell': False}
+[0.099575] (-) TimerEvent: {}
+[0.200029] (-) TimerEvent: {}
+[0.300501] (-) TimerEvent: {}
+[0.400949] (-) TimerEvent: {}
+[0.501193] (-) TimerEvent: {}
+[0.601575] (-) TimerEvent: {}
+[0.702174] (-) TimerEvent: {}
+[0.802687] (-) TimerEvent: {}
+[0.903216] (-) TimerEvent: {}
+[1.003817] (-) TimerEvent: {}
+[1.104211] (-) TimerEvent: {}
+[1.204785] (-) TimerEvent: {}
+[1.305402] (-) TimerEvent: {}
+[1.405888] (-) TimerEvent: {}
+[1.506480] (-) TimerEvent: {}
+[1.607098] (-) TimerEvent: {}
+[1.707634] (-) TimerEvent: {}
+[1.808237] (-) TimerEvent: {}
+[1.908820] (-) TimerEvent: {}
+[2.009327] (-) TimerEvent: {}
+[2.109831] (-) TimerEvent: {}
+[2.210168] (-) TimerEvent: {}
+[2.310742] (-) TimerEvent: {}
+[2.354597] (ld14) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.395396] (ld14) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.400938] (ld14) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.410855] (-) TimerEvent: {}
+[2.452541] (ld14) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.458446] (ld14) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.458585] (ld14) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.458856] (ld14) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.461639] (ld14) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.511054] (-) TimerEvent: {}
+[2.517688] (ld14) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.524669] (ld14) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.524863] (ld14) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.525216] (ld14) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.529560] (ld14) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.611168] (-) TimerEvent: {}
+[2.654246] (ld14) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.711278] (-) TimerEvent: {}
+[2.736389] (ld14) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.774090] (ld14) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.778739] (ld14) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.786164] (ld14) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.797204] (ld14) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.811377] (-) TimerEvent: {}
+[2.812724] (ld14) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.875484] (ld14) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.878164] (ld14) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.911472] (-) TimerEvent: {}
+[2.960321] (ld14) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.984665] (ld14) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.011565] (-) TimerEvent: {}
+[3.025322] (ld14) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.036875] (ld14) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.089083] (ld14) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.089488] (ld14) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.111742] (-) TimerEvent: {}
+[3.144852] (ld14) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.145671] (ld14) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.211867] (-) TimerEvent: {}
+[3.262419] (ld14) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.311990] (-) TimerEvent: {}
+[3.358464] (ld14) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.412173] (-) TimerEvent: {}
+[3.435311] (ld14) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.436786] (ld14) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.437049] (ld14) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/include;/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src;$<BUILD_INTERFACE:/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/include>\n'}
+[3.437103] (ld14) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.438082] (ld14) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.438227] (ld14) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.438443] (ld14) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.438880] (ld14) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.439228] (ld14) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.440017] (ld14) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.440073] (ld14) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.440391] (ld14) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.441281] (ld14) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.449224] (ld14) StdoutLine: {'line': b'-- Generating done\n'}
+[3.450305] (ld14) StdoutLine: {'line': b'-- Build files have been written to: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14\n'}
+[3.457262] (ld14) CommandEnded: {'returncode': 0}
+[3.457680] (ld14) JobProgress: {'identifier': 'ld14', 'progress': 'build'}
+[3.458178] (ld14) Command: {'cmd': ['/usr/bin/cmake', '--build', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14', '--', '-j8', '-l8'], 'cwd': '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14', 'env': OrderedDict([('HOSTNAME', 'ssc-KLVD-WXX9'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6036ed4a-3e5e-491c-9c19-b275b7fd982b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-aef4be1d-2698-4620-b261-28ee9f4c3727.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-aef4be1d-2698-4620-b261-28ee9f4c3727.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-501ba1ea8b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-aef4be1d-2698-4620-b261-28ee9f4c3727.sock'), ('AMENT_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laser-scan-ld14:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laser-scan-ld14:/opt/ros/humble')]), 'shell': False}
+[3.496438] (ld14) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ld14_node.dir/src/transform.cpp.o\x1b[0m\n'}
+[3.496674] (ld14) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ld14_node.dir/src/main.cpp.o\x1b[0m\n'}
+[3.496760] (ld14) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ld14_node.dir/src/cmd_interface_linux.cpp.o\x1b[0m\n'}
+[3.497792] (ld14) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ld14_node.dir/src/lipkg.cpp.o\x1b[0m\n'}
+[3.498452] (ld14) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ld14_node.dir/src/slbf.cpp.o\x1b[0m\n'}
+[3.512296] (-) TimerEvent: {}
+[3.612643] (-) TimerEvent: {}
+[3.713316] (-) TimerEvent: {}
+[3.813663] (-) TimerEvent: {}
+[3.861751] (ld14) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:9\x1b[m\x1b[K:\n'}
+[3.862058] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLiPkg::LiPkg()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.862187] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:84:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLiPkg::mIsFrameReady\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.862277] (ld14) StderrLine: {'line': b'   84 |         bool \x1b[01;35m\x1b[KmIsFrameReady\x1b[m\x1b[K;\n'}
+[3.862372] (ld14) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.862451] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:83:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool LiPkg::mIsPkgReady\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.862557] (ld14) StderrLine: {'line': b'   83 |         bool \x1b[01;35m\x1b[KmIsPkgReady\x1b[m\x1b[K;\n'}
+[3.862642] (ld14) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.862720] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:54:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.862801] (ld14) StderrLine: {'line': b'   54 | \x1b[01;35m\x1b[KLiPkg\x1b[m\x1b[K::LiPkg():\n'}
+[3.862879] (ld14) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.863088] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:71:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.863173] (ld14) StderrLine: {'line': b'   71 |                 for(int j=0;\x1b[01;35m\x1b[Kj<parted_max.size()\x1b[m\x1b[K;++j)\n'}
+[3.863259] (ld14) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.866583] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool LiPkg::AssemblePacket()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.866951] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:279:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PointData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.867092] (ld14) StderrLine: {'line': b'  279 |                         if(\x1b[01;35m\x1b[Ktmp_count == tmp.size()\x1b[m\x1b[K){\n'}
+[3.867172] (ld14) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.867259] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:289:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.867339] (ld14) StderrLine: {'line': b'  289 |                         for(int j=0;\x1b[01;35m\x1b[Kj<parted_max.size()\x1b[m\x1b[K;++j)\n'}
+[3.867417] (ld14) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.867524] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:292:94:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<short unsigned int>, short unsigned int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99} changes value from \xe2\x80\x98\x1b[01m\x1b[K+Inff\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K65535\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.867639] (ld14) StderrLine: {'line': b'  292 |                                 mFrameData.distance[i] = \x1b[01;35m\x1b[Kstd::numeric_limits<float>::infinity()\x1b[m\x1b[K;  // \xe5\xa6\x82\xe6\x9e\x9c\xe4\xb8\x8d\xe5\x9c\xa8\xe8\xa7\x92\xe5\xba\xa6\xe4\xb8\x8d\xe5\x9c\xa8\xe6\x89\xab\xe6\x8f\x8f\xe8\x8c\x83\xe5\x9b\xb4\xe5\x86\x85\xef\xbc\x8c\xe5\xb0\x86\xe8\xaf\xa5\xe8\xa7\x92\xe5\xba\xa6\xe5\xaf\xb9\xe5\xba\x94\xe7\x9a\x84\xe7\x9b\xae\xe6\xa0\x87\xe8\xb7\x9d\xe7\xa6\xbb\xe7\xbd\xae\xe4\xb8\xba\xe6\x97\xa0\xe7\xa9\xb7\xe5\xa4\xa7\n'}
+[3.867727] (ld14) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.867805] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:269:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktmp_range_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.867897] (ld14) StderrLine: {'line': b'  269 |                         int \x1b[01;35m\x1b[Ktmp_range_min\x1b[m\x1b[K=0;\n'}
+[3.867974] (ld14) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.868050] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:220:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kangle_cur\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.868125] (ld14) StderrLine: {'line': b'  220 |         double \x1b[01;35m\x1b[Kangle_cur\x1b[m\x1b[K;\n'}
+[3.868203] (ld14) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.906757] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSlTransform::SlTransform(LDVersion, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.907014] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:24:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kto_right_hand\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.907135] (ld14) StderrLine: {'line': b'   24 | SlTransform::SlTransform(LDVersion version,  \x1b[01;35m\x1b[Kbool to_right_hand\x1b[m\x1b[K)\n'}
+[3.907236] (ld14) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907845] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KPoints2D SlTransform::Transform(const Points2D&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.907990] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kd\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.908099] (ld14) StderrLine: {'line': b'   66 |         double \x1b[01;35m\x1b[Kd\x1b[m\x1b[K = sqrt(x * x + y * y);\n'}
+[3.908177] (ld14) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.913781] (-) TimerEvent: {}
+[3.981678] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/slbf.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KPoints2D Slbf::NearFilter(const Points2D&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.981895] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/slbf.cpp:174:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PointData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.981991] (ld14) StderrLine: {'line': b'  174 |                 for (int i = 1; \x1b[01;35m\x1b[Ki < n.size()\x1b[m\x1b[K; i++)\n'}
+[3.982072] (ld14) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.013907] (-) TimerEvent: {}
+[4.082413] (ld14) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.cpp:1\x1b[m\x1b[K:\n'}
+[4.082651] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCmdInterfaceLinux::CmdInterfaceLinux(int32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.082755] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:36:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCmdInterfaceLinux::mReadCallback\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.082854] (ld14) StderrLine: {'line': b'   36 |         std::function<void(const char *, size_t length)> \x1b[01;35m\x1b[KmReadCallback\x1b[m\x1b[K;\n'}
+[4.082934] (ld14) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.083009] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:33:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint32_t CmdInterfaceLinux::version\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.083086] (ld14) StderrLine: {'line': b'   33 |     int32_t \x1b[01;35m\x1b[Kversion\x1b[m\x1b[K;\n'}
+[4.083159] (ld14) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.083252] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.cpp:18:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.083322] (ld14) StderrLine: {'line': b'   18 | \x1b[01;35m\x1b[KCmdInterfaceLinux\x1b[m\x1b[K::CmdInterfaceLinux(int32_t ver):mRxThread(nullptr),\n'}
+[4.083398] (ld14) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.114034] (-) TimerEvent: {}
+[4.214386] (-) TimerEvent: {}
+[4.314642] (-) TimerEvent: {}
+[4.414993] (-) TimerEvent: {}
+[4.515297] (-) TimerEvent: {}
+[4.615536] (-) TimerEvent: {}
+[4.715806] (-) TimerEvent: {}
+[4.816064] (-) TimerEvent: {}
+[4.916308] (-) TimerEvent: {}
+[5.016563] (-) TimerEvent: {}
+[5.116814] (-) TimerEvent: {}
+[5.217195] (-) TimerEvent: {}
+[5.237957] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.238116] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:166:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.238165] (ld14) StderrLine: {'line': b'  166 |                                         if(\x1b[01;35m\x1b[Ki<data.len/2\x1b[m\x1b[K)\n'}
+[5.238209] (ld14) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.238286] (ld14) StderrLine: {'line': b'\x1b[01m\x1b[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:181:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.238329] (ld14) StderrLine: {'line': b'  181 |                                 for(int i=0;\x1b[01;35m\x1b[Ki<data.len\x1b[m\x1b[K;i++)\n'}
+[5.238369] (ld14) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.317298] (-) TimerEvent: {}
+[5.417566] (-) TimerEvent: {}
+[5.517905] (-) TimerEvent: {}
+[5.618167] (-) TimerEvent: {}
+[5.718519] (-) TimerEvent: {}
+[5.818779] (-) TimerEvent: {}
+[5.919050] (-) TimerEvent: {}
+[6.019384] (-) TimerEvent: {}
+[6.119668] (-) TimerEvent: {}
+[6.220005] (-) TimerEvent: {}
+[6.320284] (-) TimerEvent: {}
+[6.420555] (-) TimerEvent: {}
+[6.520845] (-) TimerEvent: {}
+[6.621104] (-) TimerEvent: {}
+[6.653151] (ld14) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ld14_node\x1b[0m\n'}
+[6.721286] (-) TimerEvent: {}
+[6.818333] (ld14) StdoutLine: {'line': b'[100%] Built target ld14_node\n'}
+[6.821461] (-) TimerEvent: {}
+[6.826522] (ld14) CommandEnded: {'returncode': 0}
+[6.851990] (ld14) JobProgress: {'identifier': 'ld14', 'progress': 'install'}
+[6.857838] (ld14) Command: {'cmd': ['/usr/bin/cmake', '--install', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14'], 'cwd': '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14', 'env': OrderedDict([('HOSTNAME', 'ssc-KLVD-WXX9'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6036ed4a-3e5e-491c-9c19-b275b7fd982b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-aef4be1d-2698-4620-b261-28ee9f4c3727.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-aef4be1d-2698-4620-b261-28ee9f4c3727.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-501ba1ea8b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-aef4be1d-2698-4620-b261-28ee9f4c3727.sock'), ('AMENT_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laser-scan-ld14:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/laser-scan-ld14:/opt/ros/humble')]), 'shell': False}
+[6.863583] (ld14) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.863733] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/lib/ld14/ld14_node\n'}
+[6.871488] (ld14) StdoutLine: {'line': b'-- Set runtime path of "/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/lib/ld14/ld14_node" to ""\n'}
+[6.871738] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/launch\n'}
+[6.871834] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/launch/ld.launch.py\n'}
+[6.871893] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ament_index/resource_index/package_run_dependencies/ld14\n'}
+[6.871995] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ament_index/resource_index/parent_prefix_path/ld14\n'}
+[6.872068] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/environment/ament_prefix_path.sh\n'}
+[6.872146] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/environment/ament_prefix_path.dsv\n'}
+[6.872225] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/environment/path.sh\n'}
+[6.872313] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/environment/path.dsv\n'}
+[6.872393] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/local_setup.bash\n'}
+[6.872472] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/local_setup.sh\n'}
+[6.872546] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/local_setup.zsh\n'}
+[6.872633] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/local_setup.dsv\n'}
+[6.872726] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/package.dsv\n'}
+[6.872832] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ament_index/resource_index/packages/ld14\n'}
+[6.872913] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/cmake/ld14Config.cmake\n'}
+[6.872983] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/cmake/ld14Config-version.cmake\n'}
+[6.873061] (ld14) StdoutLine: {'line': b'-- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/package.xml\n'}
+[6.875066] (ld14) CommandEnded: {'returncode': 0}
+[6.921563] (-) TimerEvent: {}
+[6.966993] (ld14) JobEnded: {'identifier': 'ld14', 'rc': 0}
+[6.967568] (-) EventReactorShutdown: {}

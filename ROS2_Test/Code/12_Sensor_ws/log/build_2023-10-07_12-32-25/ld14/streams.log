@@ -1,0 +1,140 @@
+[0.098s] Invoking command in '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14 -DCMAKE_INSTALL_PREFIX=/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14
+[2.354s] -- The C compiler identification is GNU 11.4.0
+[2.395s] -- The CXX compiler identification is GNU 11.4.0
+[2.401s] -- Detecting C compiler ABI info
+[2.452s] -- Detecting C compiler ABI info - done
+[2.458s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.458s] -- Detecting C compile features
+[2.459s] -- Detecting C compile features - done
+[2.461s] -- Detecting CXX compiler ABI info
+[2.518s] -- Detecting CXX compiler ABI info - done
+[2.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.525s] -- Detecting CXX compile features
+[2.525s] -- Detecting CXX compile features - done
+[2.529s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.654s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.736s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.774s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.779s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.786s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.875s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.878s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.960s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.985s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.025s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.037s] -- Looking for pthread.h
+[3.089s] -- Looking for pthread.h - found
+[3.089s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.145s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.145s] -- Found Threads: TRUE  
+[3.262s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.358s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.435s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.437s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.437s] -- Configured cppcheck include dirs: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/include;/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src;$<BUILD_INTERFACE:/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/include>
+[3.437s] -- Configured cppcheck exclude dirs and/or files: 
+[3.438s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.438s] -- Configured cpplint exclude dirs and/or files: 
+[3.438s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.439s] -- Added test 'lint_cmake' to check CMake code style
+[3.439s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.440s] -- Added test 'uncrustify' to check C / C++ code style
+[3.440s] -- Configured uncrustify additional arguments: 
+[3.440s] -- Added test 'xmllint' to check XML markup files
+[3.441s] -- Configuring done
+[3.449s] -- Generating done
+[3.450s] -- Build files have been written to: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14
+[3.457s] Invoked command in '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14 -DCMAKE_INSTALL_PREFIX=/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14
+[3.458s] Invoking command in '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14 -- -j8 -l8
+[3.496s] [ 50%] [32mBuilding CXX object CMakeFiles/ld14_node.dir/src/transform.cpp.o[0m
+[3.496s] [ 50%] [32mBuilding CXX object CMakeFiles/ld14_node.dir/src/main.cpp.o[0m
+[3.497s] [ 50%] [32mBuilding CXX object CMakeFiles/ld14_node.dir/src/cmd_interface_linux.cpp.o[0m
+[3.498s] [ 66%] [32mBuilding CXX object CMakeFiles/ld14_node.dir/src/lipkg.cpp.o[0m
+[3.498s] [ 83%] [32mBuilding CXX object CMakeFiles/ld14_node.dir/src/slbf.cpp.o[0m
+[3.862s] In file included from [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:9[m[K:
+[3.862s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:[m[K In constructor ‘[01m[KLiPkg::LiPkg()[m[K’:
+[3.862s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:84:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KLiPkg::mIsFrameReady[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.862s]    84 |         bool [01;35m[KmIsFrameReady[m[K;
+[3.862s]       |              [01;35m[K^~~~~~~~~~~~~[m[K
+[3.862s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.h:83:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool LiPkg::mIsPkgReady[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.862s]    83 |         bool [01;35m[KmIsPkgReady[m[K;
+[3.862s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[3.863s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:54:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.863s]    54 | [01;35m[KLiPkg[m[K::LiPkg():
+[3.863s]       | [01;35m[K^~~~~[m[K
+[3.863s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:71:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.863s]    71 |                 for(int j=0;[01;35m[Kj<parted_max.size()[m[K;++j)
+[3.863s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[3.866s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:[m[K In member function ‘[01m[Kbool LiPkg::AssemblePacket()[m[K’:
+[3.867s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:279:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PointData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.867s]   279 |                         if([01;35m[Ktmp_count == tmp.size()[m[K){
+[3.867s]       |                            [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.867s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:289:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.867s]   289 |                         for(int j=0;[01;35m[Kj<parted_max.size()[m[K;++j)
+[3.867s]       |                                     [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[3.867s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:292:94:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kfloat[m[K’ to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<short unsigned int>, short unsigned int>::value_type[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} changes value from ‘[01m[K+Inff[m[K’ to ‘[01m[K65535[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[3.867s]   292 |                                 mFrameData.distance[i] = [01;35m[Kstd::numeric_limits<float>::infinity()[m[K;  // 如果不在角度不在扫描范围内，将该角度对应的目标距离置为无穷大
+[3.868s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.868s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:269:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp_range_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.868s]   269 |                         int [01;35m[Ktmp_range_min[m[K=0;
+[3.868s]       |                             [01;35m[K^~~~~~~~~~~~~[m[K
+[3.868s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/lipkg.cpp:220:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangle_cur[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.868s]   220 |         double [01;35m[Kangle_cur[m[K;
+[3.868s]       |                [01;35m[K^~~~~~~~~[m[K
+[3.907s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:[m[K In constructor ‘[01m[KSlTransform::SlTransform(LDVersion, bool)[m[K’:
+[3.907s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:24:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_right_hand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.907s]    24 | SlTransform::SlTransform(LDVersion version,  [01;35m[Kbool to_right_hand[m[K)
+[3.907s]       |                                              [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[3.908s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:[m[K In member function ‘[01m[KPoints2D SlTransform::Transform(const Points2D&)[m[K’:
+[3.908s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/transform.cpp:66:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.908s]    66 |         double [01;35m[Kd[m[K = sqrt(x * x + y * y);
+[3.908s]       |                [01;35m[K^[m[K
+[3.982s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/slbf.cpp:[m[K In member function ‘[01m[KPoints2D Slbf::NearFilter(const Points2D&) const[m[K’:
+[3.982s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/slbf.cpp:174:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PointData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.982s]   174 |                 for (int i = 1; [01;35m[Ki < n.size()[m[K; i++)
+[3.982s]       |                                 [01;35m[K~~^~~~~~~~~~[m[K
+[4.082s] In file included from [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.cpp:1[m[K:
+[4.082s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:[m[K In constructor ‘[01m[KCmdInterfaceLinux::CmdInterfaceLinux(int32_t)[m[K’:
+[4.083s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:36:58:[m[K [01;35m[Kwarning: [m[K‘[01m[KCmdInterfaceLinux::mReadCallback[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.083s]    36 |         std::function<void(const char *, size_t length)> [01;35m[KmReadCallback[m[K;
+[4.083s]       |                                                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.083s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.h:33:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t CmdInterfaceLinux::version[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.083s]    33 |     int32_t [01;35m[Kversion[m[K;
+[4.083s]       |             [01;35m[K^~~~~~~[m[K
+[4.083s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/cmd_interface_linux.cpp:18:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.083s]    18 | [01;35m[KCmdInterfaceLinux[m[K::CmdInterfaceLinux(int32_t ver):mRxThread(nullptr),
+[4.083s]       | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[5.238s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.238s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:166:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.238s]   166 |                                         if([01;35m[Ki<data.len/2[m[K)
+[5.238s]       |                                            [01;35m[K~^~~~~~~~~~~[m[K
+[5.238s] [01m[K/data/ROS2/ROS2_Test/Code/12_Sensor_ws/src/ld14/src/main.cpp:181:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.238s]   181 |                                 for(int i=0;[01;35m[Ki<data.len[m[K;i++)
+[5.238s]       |                                             [01;35m[K~^~~~~~~~~[m[K
+[6.653s] [100%] [32m[1mLinking CXX executable ld14_node[0m
+[6.818s] [100%] Built target ld14_node
+[6.827s] Invoked command in '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14 -- -j8 -l8
+[6.858s] Invoking command in '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14
+[6.863s] -- Install configuration: ""
+[6.864s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/lib/ld14/ld14_node
+[6.871s] -- Set runtime path of "/data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/lib/ld14/ld14_node" to ""
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/launch
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/launch/ld.launch.py
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ament_index/resource_index/package_run_dependencies/ld14
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ament_index/resource_index/parent_prefix_path/ld14
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/environment/ament_prefix_path.sh
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/environment/ament_prefix_path.dsv
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/environment/path.sh
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/environment/path.dsv
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/local_setup.bash
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/local_setup.sh
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/local_setup.zsh
+[6.872s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/local_setup.dsv
+[6.873s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/package.dsv
+[6.873s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ament_index/resource_index/packages/ld14
+[6.873s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/cmake/ld14Config.cmake
+[6.873s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/cmake/ld14Config-version.cmake
+[6.873s] -- Installing: /data/ROS2/ROS2_Test/Code/12_Sensor_ws/install/ld14/share/ld14/package.xml
+[6.875s] Invoked command in '/data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /data/ROS2/ROS2_Test/Code/12_Sensor_ws/build/ld14

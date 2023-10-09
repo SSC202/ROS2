@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "1_MicroROS_Node",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1_MicroROS_Node.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_MicroROS_Node.elf-6d6cfd68531c2220cb4c.json",
+					"name" : "1_MicroROS_Node.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/ssc/SSC/STM32SSC/ROS/Code/ROS2/MicroROS/1_MicroROS_Node/cmake-build-debug",
+		"source" : "/media/ssc/SSC/STM32SSC/ROS/Code/ROS2/MicroROS/1_MicroROS_Node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

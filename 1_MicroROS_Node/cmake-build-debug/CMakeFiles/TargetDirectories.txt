@@ -1,0 +1,3 @@
+/media/ssc/SSC/STM32SSC/ROS/Code/ROS2/MicroROS/1_MicroROS_Node/cmake-build-debug/CMakeFiles/1_MicroROS_Node.elf.dir
+/media/ssc/SSC/STM32SSC/ROS/Code/ROS2/MicroROS/1_MicroROS_Node/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/ssc/SSC/STM32SSC/ROS/Code/ROS2/MicroROS/1_MicroROS_Node/cmake-build-debug/CMakeFiles/rebuild_cache.dir

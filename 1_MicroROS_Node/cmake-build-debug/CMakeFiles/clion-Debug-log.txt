@@ -1,0 +1,4 @@
+无法生成至 S:\STM32SSC\ROS\Code\ROS2\MicroROS\1_MicroROS_Node\cmake-build-debug
+它已用于项目 \media\ssc\SSC\STM32SSC\ROS\Code\ROS2\MicroROS\1_MicroROS_Node
+
+请手动删除或选择其他生成目录

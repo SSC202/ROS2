@@ -7,14 +7,14 @@
 2	60	1696854697559795500	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj	8011efe1bb832d17
 72	118	1696854697619796400	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/system_stm32f4xx.c.obj	f801d0ba60644fed
 72	143	1696854697643796700	CMakeFiles/1_MicroROS_Node.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj	358e136ffe6d769d
-541	605	1696854698103803500	CMakeFiles/1_MicroROS_Node.elf.dir/micro_ros_stm32cubemx_utils/extra_sources/microros_transports/dma_transport.c.obj	c5265479384c79c3
+1	52	1696855615828914700	CMakeFiles/1_MicroROS_Node.elf.dir/micro_ros_stm32cubemx_utils/extra_sources/microros_transports/dma_transport.c.obj	c5265479384c79c3
 255	495	1696854697995801900	CMakeFiles/1_MicroROS_Node.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj	d9096e926fbba24d
 251	448	1696854697947801200	CMakeFiles/1_MicroROS_Node.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj	6c255c9ee2925821
 184	242	1696854697743798200	CMakeFiles/1_MicroROS_Node.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj	ef07f2b591a9623f
 448	637	1696854698135804000	CMakeFiles/1_MicroROS_Node.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj	437adf5080575a0f
 535	564	1696854698063803000	CMakeFiles/1_MicroROS_Node.elf.dir/micro_ros_stm32cubemx_utils/extra_sources/microros_time.c.obj	a487112e2ee804ea
 96	185	1696854697683797300	CMakeFiles/1_MicroROS_Node.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj	40b203635c137687
-7	36	1696855615772910400	build.ninja	11fc79c46c467de
+1	31	1696948502612781100	build.ninja	11fc79c46c467de
 317	395	1696854697895800500	CMakeFiles/1_MicroROS_Node.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj	5d089fd6055ba81b
 1	43	1696854697543795300	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/dma.c.obj	2f7dc78e070d9cc4
 1	71	1696854697571795700	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/stm32f4xx_it.c.obj	798b1591032c3254
@@ -24,7 +24,7 @@
 1	60	1696854697559795500	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/gpio.c.obj	806212a38cb792b2
 85	157	1696854697659797000	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/usart.c.obj	33848ce398ae1624
 143	229	1696854697727798000	CMakeFiles/1_MicroROS_Node.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj	1267d897881ab1df
-629	665	1696844787027839300	1_MicroROS_Node.elf	9fe863c561c2aec0
+67	399	1696855616168940800	1_MicroROS_Node.elf	9fe863c561c2aec0
 297	317	1696854697815799300	CMakeFiles/1_MicroROS_Node.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj	f4c536484f417394
 422	532	1696854698031802500	CMakeFiles/1_MicroROS_Node.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj	1b36dcea2972f982
 158	251	1696854697751798300	CMakeFiles/1_MicroROS_Node.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj	a74bb70f123df63b
@@ -42,8 +42,4 @@
 347	377	1696854697875800200	CMakeFiles/1_MicroROS_Node.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj	656a0c05c71e84b2
 43	97	1696854697599796100	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj	63ab7052cd2feb5
 185	261	1696854697759798500	CMakeFiles/1_MicroROS_Node.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj	7b584c2f89215684
-1	87	1696854697587795900	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/freertos.c.obj	26fe17b818d316b4
-1	31	1696855615772910400	build.ninja	11fc79c46c467de
-1	52	1696855615828914700	CMakeFiles/1_MicroROS_Node.elf.dir/micro_ros_stm32cubemx_utils/extra_sources/microros_transports/dma_transport.c.obj	c5265479384c79c3
 1	67	1696855615844916000	CMakeFiles/1_MicroROS_Node.elf.dir/Core/Src/freertos.c.obj	26fe17b818d316b4
-67	399	1696855616168940800	1_MicroROS_Node.elf	9fe863c561c2aec0

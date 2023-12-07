@@ -1,0 +1,41 @@
+[2.094s] Invoking command in '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/src/robot_simulate': PYTHONPATH=/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/prefix_override:/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_simulate build --build-base /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build install --record /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/install.log --single-version-externally-managed
+[2.259s] running egg_info
+[2.259s] creating ../../build/robot_simulate/robot_simulate.egg-info
+[2.259s] writing ../../build/robot_simulate/robot_simulate.egg-info/PKG-INFO
+[2.259s] writing dependency_links to ../../build/robot_simulate/robot_simulate.egg-info/dependency_links.txt
+[2.259s] writing entry points to ../../build/robot_simulate/robot_simulate.egg-info/entry_points.txt
+[2.259s] writing requirements to ../../build/robot_simulate/robot_simulate.egg-info/requires.txt
+[2.259s] writing top-level names to ../../build/robot_simulate/robot_simulate.egg-info/top_level.txt
+[2.260s] writing manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'
+[2.261s] reading manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'
+[2.261s] writing manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'
+[2.262s] running build
+[2.262s] running build_py
+[2.262s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build
+[2.262s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build/lib
+[2.262s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build/lib/robot_simulate
+[2.262s] copying robot_simulate/__init__.py -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build/lib/robot_simulate
+[2.262s] running install
+[2.262s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.262s]   warnings.warn(
+[2.263s] running install_lib
+[2.263s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages/robot_simulate
+[2.263s] copying /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build/lib/robot_simulate/__init__.py -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages/robot_simulate
+[2.264s] byte-compiling /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages/robot_simulate/__init__.py to __init__.cpython-310.pyc
+[2.264s] running install_data
+[2.264s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/ament_index
+[2.264s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/ament_index/resource_index
+[2.264s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/ament_index/resource_index/packages
+[2.264s] copying resource/robot_simulate -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/ament_index/resource_index/packages
+[2.264s] copying package.xml -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate
+[2.264s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/launch
+[2.264s] copying launch/start.launch.py -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/launch
+[2.265s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/urdf
+[2.265s] copying urdf/robot.urdf -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/urdf
+[2.279s] creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/world
+[2.279s] copying world/robot.world -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/world
+[2.283s] running install_egg_info
+[2.284s] Copying ../../build/robot_simulate/robot_simulate.egg-info to /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages/robot_simulate-0.0.0-py3.10.egg-info
+[2.285s] running install_scripts
+[2.300s] writing list of installed files to '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/install.log'
+[2.317s] Invoked command in '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/src/robot_simulate' returned '0': PYTHONPATH=/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/prefix_override:/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_simulate build --build-base /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build install --record /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/install.log --single-version-externally-managed

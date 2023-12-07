@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/robot_simulate/robot_simulate.egg-info
+writing ../../build/robot_simulate/robot_simulate.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_simulate/robot_simulate.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_simulate/robot_simulate.egg-info/entry_points.txt
+writing requirements to ../../build/robot_simulate/robot_simulate.egg-info/requires.txt
+writing top-level names to ../../build/robot_simulate/robot_simulate.egg-info/top_level.txt
+writing manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_simulate/robot_simulate.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build/lib
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build/lib/robot_simulate
+copying robot_simulate/__init__.py -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build/lib/robot_simulate
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages/robot_simulate
+copying /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/build/lib/robot_simulate/__init__.py -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages/robot_simulate
+byte-compiling /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages/robot_simulate/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/ament_index
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/ament_index/resource_index
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/ament_index/resource_index/packages
+copying resource/robot_simulate -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/ament_index/resource_index/packages
+copying package.xml -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/launch
+copying launch/start.launch.py -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/launch
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/urdf
+copying urdf/robot.urdf -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/urdf
+creating /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/world
+copying world/robot.world -> /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/share/robot_simulate/world
+running install_egg_info
+Copying ../../build/robot_simulate/robot_simulate.egg-info to /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_simulate/lib/python3.10/site-packages/robot_simulate-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_simulate/install.log'

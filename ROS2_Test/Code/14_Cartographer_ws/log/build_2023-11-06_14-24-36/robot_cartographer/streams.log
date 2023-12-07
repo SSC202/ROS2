@@ -1,0 +1,49 @@
+[0.118s] Invoking command in '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/src/robot_cartographer -DCMAKE_INSTALL_PREFIX=/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer
+[1.451s] -- The C compiler identification is GNU 11.4.0
+[1.966s] -- The CXX compiler identification is GNU 11.4.0
+[2.088s] -- Detecting C compiler ABI info
+[2.191s] -- Detecting C compiler ABI info - done
+[2.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.205s] -- Detecting C compile features
+[2.207s] -- Detecting C compile features - done
+[2.230s] -- Detecting CXX compiler ABI info
+[2.293s] -- Detecting CXX compiler ABI info - done
+[2.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.299s] -- Detecting CXX compile features
+[2.299s] -- Detecting CXX compile features - done
+[2.730s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.021s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.210s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.348s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.349s] -- Added test 'lint_cmake' to check CMake code style
+[3.350s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.351s] -- Added test 'xmllint' to check XML markup files
+[3.354s] -- Configuring done
+[3.358s] -- Generating done
+[3.360s] -- Build files have been written to: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer
+[3.365s] Invoked command in '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/src/robot_cartographer -DCMAKE_INSTALL_PREFIX=/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer
+[3.365s] Invoking command in '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer -- -j8 -l8
+[3.396s] Invoked command in '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer -- -j8 -l8
+[3.418s] Invoking command in '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer
+[3.424s] -- Install configuration: ""
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/config
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/config/robot_2d.lua
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/launch
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/launch/cartographer.launch.py
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/rviz
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/ament_index/resource_index/package_run_dependencies/robot_cartographer
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/ament_index/resource_index/parent_prefix_path/robot_cartographer
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/environment/ament_prefix_path.sh
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/environment/ament_prefix_path.dsv
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/environment/path.sh
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/environment/path.dsv
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/local_setup.bash
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/local_setup.sh
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/local_setup.zsh
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/local_setup.dsv
+[3.424s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/package.dsv
+[3.425s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/ament_index/resource_index/packages/robot_cartographer
+[3.425s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/cmake/robot_cartographerConfig.cmake
+[3.425s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/cmake/robot_cartographerConfig-version.cmake
+[3.425s] -- Installing: /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/install/robot_cartographer/share/robot_cartographer/package.xml
+[3.426s] Invoked command in '/data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data/ROS2/ROS2_Test/Code/14_Cartographer_ws/build/robot_cartographer
